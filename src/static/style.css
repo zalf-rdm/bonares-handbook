@@ -1,4 +1,9 @@
 
+sidebar {
+    background-color: #FF7777; /*Whatever color you want goes here, but in Hexadecimal form*/
+    color: #1122cc; /*The color of your font also goes here, but in hexadecimal form*/
+}
+
 a
     {
         text-align: left;

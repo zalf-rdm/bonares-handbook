@@ -18,8 +18,8 @@ branding:
   logo: static/img/zalf_logo.png
   colors:
       label:                  # Label colors
-        text: "#ff0000"       # Custom color for the label text.
-        background: "#ff0000"
+        text: "#000fff"       # Custom color for the label text.
+        background: "#fff000"
 # -----------------------------------------------------------------------------
 
 poweredByRetype: true # Set to false to remove the Powered by Retype branding.
