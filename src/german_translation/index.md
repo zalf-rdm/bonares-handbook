@@ -1,6 +1,6 @@
 ---
 label: German Translation
-icon: "../static/img/translation_icon.svg"
+icon: comment-discussion
 expanded: true
 order: 100
 ---

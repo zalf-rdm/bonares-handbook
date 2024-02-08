@@ -1,14 +1,67 @@
-.nav {
-    background-color: #004900; /*Whatever color you want goes here, but in Hexadecimal form*/
-    color: #1122cc; /*The color of your font also goes here, but in hexadecimal form*/
+a {
+    text-align: left;
+    color: #009100
 }
-.sidebar {
-    background-color: #FF7777; /*Whatever color you want goes here, but in Hexadecimal form*/
+
+#docs-app {
+    font-family: "Titillium Web", sans-serif;
+}
+
+#docs-app a {
+    list-style-type: none;
+    color: #009400;
+  }
+  
+#docs-site-header {
+    background-image: url("./img/header.svg");
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #effaefd2;
+    
+}
+
+#docs-app nav {
+    color: #a9ac01; 
+    font-weight: 300;
+}
+
+
+
+ #docs-app aside {
+    background-color: #454645; 
+    color: #ffffff; 
+}
+
+#docs-app aside div {
+    background-color:#454645; 
+    color: #ffffff; 
+}
+
+
+#docs-app aside a {
+    color: #ffffff; 
+}
+
+
+
+#docs-app aside a:hover, #docs-app aside button:hover {
+    color: #009100;
+
+}
+
+
+#sidebar-footer {
+    background-color: #FF4900; /*Whatever color you want goes here, but in Hexadecimal form*/
     color: #1122cc; /*The color of your font also goes here, but in hexadecimal form*/
 }
 
-a
-    {
-        text-align: left;
-        color: #004900
+
+
+
+/*
+#docs-app #docs-sidebar-right {
+    margin-top: 0;
+    background-color: #e0e0e0;
 }
+*/

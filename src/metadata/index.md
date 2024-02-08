@@ -1,6 +1,6 @@
 ---
 label: Metadata
-icon: project-roadmap
+icon: code-square
 expanded: false
 order: 500
 ---

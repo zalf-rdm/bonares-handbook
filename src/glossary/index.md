@@ -1,6 +1,6 @@
 ---
 label: Glossary
-icon: "../static/img/glossary_icon.svg"
+icon: typography
 expanded: false
 order: 200
 ---

@@ -2,7 +2,8 @@ input: src  # The local path from this retype.yml file to your content files.
 
 # -----------------------------------------------------------------------------
 
-
+editor:
+  enabled: false # Default is true
 
 # -----------------------------------------------------------------------------
 
@@ -18,8 +19,8 @@ branding:
   logo: static/img/zalf_logo.png
   colors:
       label:                  # Label colors
-        text: "#000fff"       # Custom color for the label text.
-        background: "#fff000"
+        text: "#009100"       # Custom color for the label text.
+        background: "#ffffff"
 # -----------------------------------------------------------------------------
 
 poweredByRetype: true # Set to false to remove the Powered by Retype branding.
@@ -38,6 +39,9 @@ links: # A list of custom links to add to the top bar of the generated website.
     link: https://www.bonares.de  # Link to an internal file or external URL.
     icon: globe
     target: blank                 # Custom target. Use blank to open link in a new window.
+    colors:
+        text: "#009100"      # Custom color for the label text.
+        background: "#ffffff"
 
 # -----------------------------------------------------------------------------
 
