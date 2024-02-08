@@ -1,8 +1,8 @@
 ---
-label: Data Provision
-icon: download
-expanded: true
-order: 110
+label: Creation of Templates
+icon: versions
+expanded: false
+order: 400
 ---
 # Data Provision
 

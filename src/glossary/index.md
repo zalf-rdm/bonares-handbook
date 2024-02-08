@@ -1,8 +1,8 @@
 ---
-label: Data Management
-icon: "../static/img/glossary.png"
-expanded: true
-order: 120
+label: Glossary
+icon: "../static/img/glossary_icon.svg"
+expanded: false
+order: 200
 ---
 
 # Data management

@@ -1,8 +1,8 @@
 ---
-label: Appendix
-icon: info
-expanded: true
-order: 100
+label: Help
+icon: question
+expanded: false
+order: 300
 ---
 
 # Appendix

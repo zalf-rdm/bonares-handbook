@@ -2,7 +2,7 @@
 label: German Translation
 icon: "../static/img/translation_icon.svg"
 expanded: true
-order: 120
+order: 100
 ---
 
 # Data management

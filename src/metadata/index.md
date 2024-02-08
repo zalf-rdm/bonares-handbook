@@ -1,8 +1,8 @@
 ---
-label: Submit Research Data
-icon: upload
+label: Metadata
+icon: project-roadmap
 expanded: false
-order: 600
+order: 500
 ---
 # Research Data
 

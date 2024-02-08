@@ -1,11 +1,12 @@
 ---
-label: Handbook for BonaRes Repository
+label: Home
 icon: home
+order: 700
 ---
 
 # Handbook for BonaRes Repository
 
-![](/static/img/bonares-repository-logo.png)
+![](/static/img/bonares_repository_logo.png)
 
 **Authors**: Carsten Hoffmann, Sina Schulz, Einar Eberhardt, Meike Grosse, Susanne Stein, Xenia Specka, Nikolai Svoboda,
 Uwe Heinrich

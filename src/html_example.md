@@ -1,5 +1,5 @@
 ---
-label: Agricultural Tools and Machineries
+label: HTML tag examples
 order: 50
 ---
 
