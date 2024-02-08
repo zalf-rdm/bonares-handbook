@@ -17,16 +17,13 @@ a {
     background-position: right; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: #effaefd2;
-    
-}
+    background-color: #d5dbd5e1;
+ }
 
 #docs-app nav {
     color: #a9ac01; 
     font-weight: 300;
 }
-
-
 
  #docs-app aside {
     background-color: #454645; 
@@ -38,26 +35,13 @@ a {
     color: #ffffff; 
 }
 
-
 #docs-app aside a {
     color: #ffffff; 
 }
 
-
-
 #docs-app aside a:hover, #docs-app aside button:hover {
-    color: #009100;
-
+    color: #797979;
 }
-
-
-#sidebar-footer {
-    background-color: #FF4900; /*Whatever color you want goes here, but in Hexadecimal form*/
-    color: #1122cc; /*The color of your font also goes here, but in hexadecimal form*/
-}
-
-
-
 
 /*
 #docs-app #docs-sidebar-right {
