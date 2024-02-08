@@ -2,7 +2,7 @@ input: src  # The local path from this retype.yml file to your content files.
 
 # -----------------------------------------------------------------------------
 
-output: docs # Custom path to the output directory.
+
 
 # -----------------------------------------------------------------------------
 
