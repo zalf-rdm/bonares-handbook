@@ -21,4 +21,5 @@ jobs:
 
       - uses: retypeapp/action-github-pages@latest
         with:
+          branch: main
           update-branch: true
