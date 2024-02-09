@@ -1,0 +1,49 @@
+
+:root{
+    font-family: "Titillium Web", sans-serif !important;
+}
+
+
+  
+#docs-site-header {
+    background-image: url("./img/header.svg") !important;
+    background-position: right !important;
+    background-repeat: no-repeat!important;
+    background-size: cover !important;
+    background-color: #d5dbd5e1 !important;
+ }
+
+#docs-app nav {
+    color: #a9ac01; 
+    font-weight: 300;
+}
+
+#docs-app nav a {
+    color: #004900; 
+    font-weight: 300;
+}
+
+ #docs-app aside {
+    background-color: #454645; 
+    color: #ffffff; 
+}
+
+#docs-app aside div {
+    background-color:#454645; 
+    color: #ffffff; 
+}
+
+#docs-app aside a {
+    color: #ffffff; 
+}
+
+#docs-app aside a:hover, #docs-app aside button:hover {
+    color: #797979;
+}
+
+/*
+#docs-app #docs-sidebar-right {
+    margin-top: 0;
+    background-color: #e0e0e0;
+}
+*/
