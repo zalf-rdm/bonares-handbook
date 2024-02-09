@@ -4,27 +4,19 @@ order: 40
 ---
 # Geo-data Services
 
-Geo-data service provides access to a geo-database by local area network (LAN) or the internet using ArcGIS server
-or open-source GIS servers, i.e., geo server to view, search and queries into database.
-Open Geospatial Consortium (OGC) regulates rules and standards for geo-data services. So called “OGC services” are listed
-in this chapter. They are widely accepted and applied by geo-data providers and users. Requirements, types and structure
-of services are defined in **EN ISOS 19119:2016** and **ISO 19133:2007** (data types, operations and implementation).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nisl finibus, laoreet ligula sit amet, pulvinar tellus. Nullam ut mi finibus, suscipit nisi vel, consectetur ante. Aliquam ac aliquam felis. Pellentesque feugiat neque vel arcu mattis mattis. Etiam pulvinar lacus sed quam egestas, eget tempor dui molestie. Donec ac vehicula magna, id accumsan nibh. Phasellus risus metus, **lacinia sit amet nisi sed, ultricies lacinia arcu**. Vivamus laoreet massa in diam sodales, non hendrerit nulla iaculis. Nunc ut elementum neque, et eleifend odio.
 
 <br>
 
 ### Overview of existing standards
-
-All OGC standards on web services (OWS) and supporting documents are available to the public at no cost, e.g.:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nisl finibus, laoreet ligula sit amet, pulvinar tellus. Nullam ut mi finibus, suscipit nisi vel, consectetur ante. Aliquam ac aliquam felis. Pellentesque feugiat neque vel arcu mattis mattis. Etiam pulvinar lacus sed quam egestas, eget tempor dui molestie. Donec ac vehicula magna, id accumsan nibh. Phasellus risus metus, **lacinia sit amet nisi sed, ultricies lacinia arcu**. Vivamus laoreet massa in diam sodales,
 
 <br>
 
 ### WMS (Web Map Service) ![](/static/img/two_star.png) 
 
-WMS offer geo-registered map images in different format (e.g. JPEG, PNG) from distributed geo-database system through GIS servers.
-It is basically a HTTP/HTTPS link, which provides different request types, two of which are required by any WMS server:
-GetCapabilities and GetMap, defines a certain geographic location and layer(s) to be managed. Request types that WMS 
-optionally support include: _GetFeatureInfo, DescribeLayer_ and _GetLegendGraphic_ ([OpenGeoSpatial](https://www.ogc.org/standards/wms)).
-Rules and applications of WMS are provided by **EN ISO 19128:2008**.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nisl finibus, laoreet ligula sit amet, pulvinar tellus. Nullam ut mi finibus, suscipit nisi vel, consectetur ante. Aliquam ac aliquam felis. Pellentesque feugiat neque vel arcu mattis mattis. Etiam pulvinar lacus sed quam egestas, eget tempor dui molestie. Donec ac vehicula magna, id accumsan nibh. Phasellus risus metus, **lacinia sit amet nisi sed, ultricies lacinia arcu**. Vivamus laoreet massa in diam sodales, ([OpenGeoSpatial](https://www.ogc.org/standards/wms)).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nisl finibus, laoreet ligula sit amet, pulvinar tellus. Nullam ut mi finibus, suscipit nisi vel
 
 <br>
 
