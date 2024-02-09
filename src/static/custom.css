@@ -4,26 +4,11 @@
   font-family: "Titillium Web", sans-serif !important;
 }
 
-.currentColor {
-  color: #019601 !important;
-}
 
 nav a {
   color: #019601 !important;
 }
 
-/*
-main a {
-    color: #019601 !important;
-  }
-*/
-footer a {
-    color: #019601 !important;
-  }
-
-#docs-sidebar-right> a:hover, #docs-sidebar-right> a:active {
-    color: #019601 !important;
-  }
 
 
   #docs-site-header {
