@@ -5,15 +5,15 @@
 
 
 a {
-    color: #004900 !important;
+    color: #019601 !important;
   }
 
 
 
- #docs-site-header {
-    background-image: url("/img/header.svg") !important;
-    background-position: right !important;
-    background-repeat: no-repeat!important;
-    background-size: cover !important;
-    background-color: #d5dbd5e1 !important;
+  #docs-site-header {
+    background-image: url("./img/header.svg");
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: #d5dbd5e1 ;
  }
