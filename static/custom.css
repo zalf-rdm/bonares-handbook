@@ -1,13 +1,33 @@
 
+
 #docs-app {
   font-family: "Titillium Web", sans-serif !important;
 }
 
+.fill {
+  color: #019601 !important;
+}
 
-a {
+nav a {
+  color: #019601 !important;
+}
+
+
+aside a {
+    color: #6ca16c !important;
+  }
+
+main a {
     color: #019601 !important;
   }
 
+footer a {
+    color: #019601 !important;
+  }
+
+#docs-sidebar-right a:hover, #docs-sidebar-right a:active {
+    color: #019601 !important;
+  }
 
 
   #docs-site-header {
