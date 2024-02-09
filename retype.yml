@@ -19,7 +19,7 @@ branding:
   logo: static/img/zalf_logo.png
   colors:
       label:                  # Label colors
-        text: "#009100"       # Custom color for the label text.
+        text: "#009400"       # Custom color for the label text.
         background: "#ffffff"
 # -----------------------------------------------------------------------------
 
