@@ -18,3 +18,13 @@ nav a {
     background-size: cover ;
     background-color: #d5dbd5e1 ;
  }
+
+ .infos {
+  text-align: left;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  border: 1px solid #8b8b8b;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+

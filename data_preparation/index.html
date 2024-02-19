@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761650745609">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761666487330">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Data Preparation</title>
     <meta name="title" content="Data Preparation">
-    <meta name="description" content="A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared in such a way that ">
+    <meta name="description" content="A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://bonares-handbook/data_preparation/">
@@ -20,26 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bonares-handbook/data_preparation/">
     <meta property="og:title" content="Data Preparation">
-    <meta property="og:description" content="A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared in such a way that ">
+    <meta property="og:description" content="A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://bonares-handbook/data_preparation/">
     <meta property="twitter:title" content="Data Preparation">
-    <meta property="twitter:description" content="A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared in such a way that ">
+    <meta property="twitter:description" content="A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/img/zalf_logo.svg" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.761650745609" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.761666487330" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.761650745609" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.761666487330" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.761650745609" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.761666487330" data-turbo-eval="false" defer></script>
 
     <link href="./static/custom.css" rel="stylesheet" />
-
-
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -192,48 +190,88 @@
         <span>Data Preparation</span>
     </h1>
 </doc-anchor-target>
-<p>A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared in such a way that <strong>easy reuse</strong> is possible. In principle, the data record should be <strong>tabular and column-based</strong>. In most cases, soil and agricultural data have a <strong>spatial reference</strong>. The spatial position of the measuring points or areas should be given in the table as detailed as possible.</p>
+<p>A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared
+in such a way that <strong>easy reuse</strong> is possible. In principle, the data record should be <strong>tabular and column-based</strong>. In
+most cases, soil and agricultural data have a <strong>spatial reference</strong>. The spatial position of the measuring points or
+areas should be given in the table as detailed as possible.</p>
 <p>A typical dataset for data transfer to the BonaRes Data Centre has the following properties:</p>
-<p>Each column (attribute) of the table contains the attribute name in the first row and the attribute values in the following rows, which means the data within the <strong>table are column-oriented</strong>. Each table or dataset must be given a short, concise name. For widespread reuse, work should be done in English if possible.</p>
+<p>Each column (attribute) of the table contains the attribute name in the first row and the attribute values in the
+following rows, which means the data within the <strong>table are column-oriented</strong>. Each table or dataset must be given a
+short, concise name. For widespread reuse, work should be done in English if possible.</p>
 <p>Typically, each table contains the following standard attributes:</p>
+<p><em>Table 1: Example table with typical standard attributes of a data table</em></p>
 <div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead style="font-size: 24px; background-color: #A8A8A8">
-<tr>
-<th><strong>Identifier</strong></th>
-<th><strong>x-coordinate</strong></th>
-<th><strong>y-coordinate</strong></th>
-<th><strong>Date</strong></th>
-<th><strong>beetles</strong></th>
-<th><strong>Attribute 2</strong></th>
-<th><strong>Attribute n</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>52,460126<br>
-<td>13,296310<br>
-<td>17.04.2018<br>
-<td>5<br>
-<td>...<br>
-<td>...<br>
-</tr>
-</table>
-_Fig. 1 Example table with typical standard attributes of a data table_
+   <table class="comfortable">
+   <thead style="font-size: 24px; background-color: #A8A8A8">
+      <thead>
+         <tr>
+            <th><strong>Identifier</strong></th>
+            <th><strong>x-coordinate</strong></th>
+            <th><strong>y-coordinate</strong></th>
+            <th><strong>Date</strong></th>
+            <th><strong>beetles</strong></th>
+            <th><strong>Attribute 2</strong></th>
+            <th><strong>Attribute n</strong></th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>1</td>
+            <td>52,460126<br>
+            <td>13,296310<br>
+            <td>17.04.2018<br>
+            <td>5<br>
+            <td>...<br>
+            <td>...<br>
+         </tr>
+      </tbody>
+   </table>
 </div>
-<p>The following formal criteria must be met:</p>
-<p>✓ tables are unformatted (do not contain grafical elements, colored lines, …)
-✓ there are no internal references or formulas within a table
-✓ tables contain only one worksheet (avoid Excel folders with multiple sheets)</p>
-<p>✓ each column contains a unique attribute name
-(between upper and lower case not differentiated z. B. “beetles” and “Beetles”)
-✓ column delimiter is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)</p>
-<p>✓ attribute names contain no spaces (an underscore „_“ is allowed to use), special characters,
-umlauts, “ß” or units
-✓ ... are a maximum of 30 characters long
-✓ ... do not start with a number
-✓ ... are only assigned once</p>
+<doc-anchor-target id="the-following-formal-criteria-must-be-met">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-following-formal-criteria-must-be-met">#</doc-anchor-trigger>
+        <span>The following formal criteria must be met:</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li>tables are unformatted (do not contain grafical elements, colored lines, …)</li>
+<li>there are no internal references or formulas within a table</li>
+<li>tables contain only one worksheet (avoid Excel folders with multiple sheets)</li>
+<li>in case of multiple sheets, upload each sheet as a separate table</li>
+<li>each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”)</li>
+<li>column delimiter is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)</li>
+<li>attribute names contain no spaces (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units</li>
+<li>...are a maximum of 30 characters long</li>
+<li>...do not start with a number</li>
+<li>...are only assigned once</li>
+<li>missing values are explicitly marked and clearly differ from “none specification &quot;and&quot; 0 &quot;</li>
+<li>values within a column are constant (no change of reference variable or unit)</li>
+<li>values in the cells contain no units, explanations or abbreviations e. g. &quot;Under detection limit” or “&lt; 0.00 ”</li>
+<li>only one value specified per cell</li>
+<li>cells are not connected</li>
+<li>... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter)</li>
+<li>IDs are only assigned once</li>
+<li>each line is available once(there are no double lines e. g. due to copy errors)</li>
+<li>cells contain no spaces</li>
+</ol>
+<p>The prepared dataset should be submitted in the <strong>file format txt, csv, xls or xslx.</strong> Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Centre also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the <a href="mailto:support-data@bonares.de">support of BonaRes Repository</a>.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-green-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-green-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
+                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>File Formats</h5>
+<p>Datasets submitted in file formats, which can be integrated to the SQL database of the BonaRes Data Centre is made available with full service (options for file formats and coordinate system, description of the data model, ...). Other research data e.g., Pictures, videos or comparable formats can be downloaded by the re-user in the file format as submitted. If you have any questions, contact the <a href="mailto:support-data@bonares.de">support of BonaRes Repository</a></p>
+        </div>
+    </div>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
