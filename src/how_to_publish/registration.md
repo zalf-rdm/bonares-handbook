@@ -1,21 +1,27 @@
 ---
 label: Registration
-icon: code-square
+icon: pencil
 expanded: false
 order: 50
 ---
 # Registration on BonaRes Repository
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nibh in leo varius tincidunt nec id magna. Donec sit amet gravida purus. Aliquam molestie hendrerit aliquam. Nullam efficitur tortor nunc, ac porttitor nisi semper sit amet. In hac habitasse platea dictumst. Vivamus aliquet diam sem, facilisis fringilla ipsum commodo in. Mauris venenatis turpis sed metus tempus eleifend. Mauris pulvinar, mauris et faucibus cursus, orci eros ullamcorper metus, vel feugiat sapien metus porta quam. Fusce in sollicitudin quam.
+A **one-time registration** is required to use the services of the BonaRes Centre e. g., the [upload tool](https://upload.bonares.de/) and the metadata editor  
 
-Quisque vehicula, nisl ac pellentesque porta, lorem ligula vestibulum nisl, sit amet vulputate leo ligula eu nunc. Fusce eu pulvinar ex, a posuere arcu. Nullam rutrum volutpat gravida. Mauris eu ultrices tellus. Praesent neque erat, pharetra at lorem vitae, vestibulum eleifend metus. Nullam interdum, massa id semper vulputate, risus felis aliquet arcu, ut finibus turpis lorem at est. Nunc sit amet ultrices lectus, sit amet malesuada ex. Vestibulum viverra leo ut consequat fermentum.
+1. Specification of user name and email address, as well as assignment of a password
 
-Ut dictum ligula a vehicula ornare. Suspendisse euismod semper tempor. Aliquam pellentesque ex in est aliquam, non iaculis velit cursus. Suspendisse dapibus diam tincidunt luctus porta. Curabitur volutpat sapien et ante rhoncus faucibus. Phasellus tempor iaculis porttitor. Duis est mauris, tristique at interdum eget, finibus eget ligula. Vestibulum suscipit, leo sit amet accumsan venenatis, velit justo tincidunt lorem, interdum aliquam diam mi nec sem.
+   The following conditions must be met for the password:
+   - it must consist of at least 8 characters
+   - it must contain at least 3 small letters
+   - it must differ from the user name and email address
+   - it must contain at least 3 character classes (e.g. uppercase, lowercase, special characters, numbers)
 
-Donec vel fringilla nisi. Integer aliquet ligula vitae neque ultricies, ultricies tristique lorem fringilla. Phasellus iaculis eu risus auctor tempor. Praesent neque nunc, faucibus ut tempor non, lobortis ac arcu. Integer varius hendrerit massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit quam sapien, vel porttitor lectus scelerisque sed.
+2. ![](/static/img/fig_registration.png)
+_[Registration window on the BonaRes website](https://tools.bonares.de/account/signup)_
 
-Aenean hendrerit rutrum dolor id maximus. Sed diam dui, volutpat nec scelerisque in, faucibus eget orci. Nulla vitae massa augue. Etiam et nunc nunc. Nulla quis orci vehicula, gravida sem ut, tempor nisl. In aliquam malesuada erat nec consectetur. Vestibulum pharetra venenatis mi, vel tempus nunc elementum a. Morbi ac elementum enim. Praesent vestibulum ornare nisl nec porttitor. Proin ut maximus sem.
+3. Receive a confirmation email from the BonaRes Repository (double opt in)
+4. Confirm the registration by clicking the link in the email
 
-[!ref](/submit_research_data/name.md)
-
-
+!!!success  Note:
+If the intention is to submit several datasets of a **research group**, it is possible to organize all of the associated data providers in one project in the BonaRes Centre. In this case, the [BonaRes Centre should be contacted](mailto:support-data@bonares.de) **BEFORE registration**, so the project can be created in advance. The same **project affiliation** allows you to search for specific project data. Pre-entries about shared templates within the project save time and effort when describing the metadata. The rights for editing the metadata are distributed in a targeted manner.
+!!!

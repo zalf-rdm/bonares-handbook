@@ -1,21 +1,59 @@
 ---
-label: Download and Fill
-icon: code-square
+label: Download and fill the metadata Template
+icon: desktop-download
 expanded: false
 order: 40
 ---
 # Download and Fill the metadata Template
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nibh in leo varius tincidunt nec id magna. Donec sit amet gravida purus. Aliquam molestie hendrerit aliquam. Nullam efficitur tortor nunc, ac porttitor nisi semper sit amet. In hac habitasse platea dictumst. Vivamus aliquet diam sem, facilisis fringilla ipsum commodo in. Mauris venenatis turpis sed metus tempus eleifend. Mauris pulvinar, mauris et faucibus cursus, orci eros ullamcorper metus, vel feugiat sapien metus porta quam. Fusce in sollicitudin quam.
+!!!success Note
+If data are already published in another open repository, the BonaRes Centre offers to take over the metadata of the dataset and to disseminate it via its own infrastructure. There is a link to the location of the dataset. This means that the research data can also be found via the BonaRes Repository without the need for republication. **Contact the support of the BonaRes Repository here:**[support-data@bonares.de](support-data@bonares.de).
+!!!
 
-Quisque vehicula, nisl ac pellentesque porta, lorem ligula vestibulum nisl, sit amet vulputate leo ligula eu nunc. Fusce eu pulvinar ex, a posuere arcu. Nullam rutrum volutpat gravida. Mauris eu ultrices tellus. Praesent neque erat, pharetra at lorem vitae, vestibulum eleifend metus. Nullam interdum, massa id semper vulputate, risus felis aliquet arcu, ut finibus turpis lorem at est. Nunc sit amet ultrices lectus, sit amet malesuada ex. Vestibulum viverra leo ut consequat fermentum.
+### Download
 
-Ut dictum ligula a vehicula ornare. Suspendisse euismod semper tempor. Aliquam pellentesque ex in est aliquam, non iaculis velit cursus. Suspendisse dapibus diam tincidunt luctus porta. Curabitur volutpat sapien et ante rhoncus faucibus. Phasellus tempor iaculis porttitor. Duis est mauris, tristique at interdum eget, finibus eget ligula. Vestibulum suscipit, leo sit amet accumsan venenatis, velit justo tincidunt lorem, interdum aliquam diam mi nec sem.
+:::content-center
+![](/static/img/fig_download_metadata.png)
+_Download the metadata template [here](https://tools.bonares.de/submission/)_
+:::
 
-Donec vel fringilla nisi. Integer aliquet ligula vitae neque ultricies, ultricies tristique lorem fringilla. Phasellus iaculis eu risus auctor tempor. Praesent neque nunc, faucibus ut tempor non, lobortis ac arcu. Integer varius hendrerit massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit quam sapien, vel porttitor lectus scelerisque sed.
+### How to Fill out the metadata template
 
-Aenean hendrerit rutrum dolor id maximus. Sed diam dui, volutpat nec scelerisque in, faucibus eget orci. Nulla vitae massa augue. Etiam et nunc nunc. Nulla quis orci vehicula, gravida sem ut, tempor nisl. In aliquam malesuada erat nec consectetur. Vestibulum pharetra venenatis mi, vel tempus nunc elementum a. Morbi ac elementum enim. Praesent vestibulum ornare nisl nec porttitor. Proin ut maximus sem.
+- Title English: Max of xxxxx characters
+- Title German: Max of xxxx characters
+- Summary English: Maximum of xxxxxx characters
+- Summary German: Maximum of xxxxx characters
+- Embargo:  refers to a period (max 24 months) during which the data cannot be downloaded.
+- Author(s): Include an ORCID
+- Contributor: click on “choose an element” and select an option.
 
-[!ref](/submit_research_data/name.md)
+:::content-center
+![](/static/img/fig_template_page1.png)
+~_Metadata template: page 1_~
+:::
 
+- Funding information: provide cross ref links if available.
+- Geographic area: provide bounding box information from where the data was collected.
+- Keywords: click on links and select keywords then write them under each link.
+- Place keywords: precise location
+- Related data already published: click on “choose an element” and select an option of the Relation Type.
+
+:::content-center
+![](/static/img/fig_template_page2.png)
+~_Metadata template: page2_~
+:::
+
+- Dataset details: describe what each column stands for and precise the units and methods if applicable
+- For large datasets use extra excel file. See below. Image/grapic: provide an image that represents your dataset
+:::content-center
+![](/static/img/fig_template_page3.png)
+~_Metadata template: page3_~
+:::
+
+
+
+:::content-center
+![](/static/img/fig_metadata_excel_example.png)
+~_Metadata template: example of excel file for simple data sets_~
+:::
 
