@@ -1,0 +1,141 @@
+{
+  "version": "3.5.0",
+  "created": "2024-02-19T08:49:56Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "creation_of_templates\\data_publication\\index.html"
+    },
+    {
+      "path": "creation_of_templates\\geo_data_services\\index.html"
+    },
+    {
+      "path": "creation_of_templates\\index.html"
+    },
+    {
+      "path": "creation_of_templates\\licenses\\index.html"
+    },
+    {
+      "path": "creation_of_templates\\metadata\\index.html"
+    },
+    {
+      "path": "creation_of_templates\\thesauri__ontologies\\index.html"
+    },
+    {
+      "path": "german_translation\\index.html"
+    },
+    {
+      "path": "glossary\\data_archiving\\index.html"
+    },
+    {
+      "path": "glossary\\index.html"
+    },
+    {
+      "path": "help\\code_lists\\index.html"
+    },
+    {
+      "path": "help\\credits\\index.html"
+    },
+    {
+      "path": "help\\index.html"
+    },
+    {
+      "path": "help\\mentioned_standards\\index.html"
+    },
+    {
+      "path": "help\\recommended_standards\\index.html"
+    },
+    {
+      "path": "html_example\\index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "markdown_example\\index.html"
+    },
+    {
+      "path": "metadata\\index.html"
+    },
+    {
+      "path": "resources\\css\\retype.css"
+    },
+    {
+      "path": "resources\\fonts\\Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\lunr.js"
+    },
+    {
+      "path": "resources\\js\\prism.js"
+    },
+    {
+      "path": "resources\\js\\retype.js"
+    },
+    {
+      "path": "resources\\js\\search.json"
+    },
+    {
+      "path": "resources\\lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "static\\_style.css"
+    },
+    {
+      "path": "static\\custom.css"
+    },
+    {
+      "path": "static\\img\\bonares_repository_logo.png"
+    },
+    {
+      "path": "static\\img\\glossary_icon.svg"
+    },
+    {
+      "path": "static\\img\\header.svg"
+    },
+    {
+      "path": "static\\img\\zalf_logo.png"
+    },
+    {
+      "path": "static\\img\\zalf_logo.svg"
+    },
+    {
+      "path": "submit_research_data\\data_preparation\\index.html"
+    },
+    {
+      "path": "submit_research_data\\index.html"
+    }
+  ]
+}
