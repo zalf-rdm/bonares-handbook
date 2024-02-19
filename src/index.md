@@ -49,27 +49,29 @@ _Table 1: Example table with typical standard attributes of a data table_
    </table>
 </div>
 
-### The following formal criteria must be met:
-
-1. tables are unformatted (do not contain grafical elements, colored lines, …)
-2. there are no internal references or formulas within a table
-3. tables contain only one worksheet (avoid Excel folders with multiple sheets)
-4. in case of multiple sheets, upload each sheet as a separate table
-5. each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”)
-6. column delimiter is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)
-7. attribute names contain no spaces (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units
+{.compact}
+**The following formal criteria must be met:**
+---
+1. **Tables** are unformatted (do not contain grafical elements, colored lines, …) 
+2. There are no internal references or formulas within a table |
+3. Tables contain only **one** worksheet (avoid Excel folders with multiple sheets)
+4. **In case of multiple sheets**, upload each sheet as a **separate table**
+5. Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”)
+6. **Column delimiter** is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)
+7. Attribute names contain **no spaces** (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units
 8. ...are a maximum of 30 characters long
-9. ...do not start with a number
-10. ...are only assigned once
-11. missing values are explicitly marked and clearly differ from “none specification "and" 0 "
-12. values within a column are constant (no change of reference variable or unit)
-13. values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”
-14. only one value specified per cell
-15. cells are not connected
+9. ...**do not** start with a number
+10. ...are only assigned **once**
+11. **Missing values** are explicitly marked and clearly differ from “none specification "and" 0 "
+12. Values within a column are constant (**no change of reference variable or unit**)
+13. Values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”
+14. Only one value specified per cell
+15. Cells **are not** connected
 16. ... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter)
-17. IDs are only assigned once
-18. each line is available once(there are no double lines e. g. due to copy errors)
-19. cells contain no spaces
+17. IDs are only assigned **once**
+18. Each line is available **once**(there are no double lines e. g. due to copy errors)
+19. Cells contain no spaces
+ 
 
 The prepared dataset should be submitted in the **file format txt, csv, xls or xslx.** Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Centre also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the [support of BonaRes Repository](mailto:support-data@bonares.de).
 
