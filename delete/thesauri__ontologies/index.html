@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761650745609">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Thesauri and Ontologies</title>
+    <meta name="title" content="Thesauri and Ontologies">
+    <meta name="description" content="The use of controlled vocabularies with standardized, generally accepted and clearly assigned identifiers, definitions">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://bonares-handbook/delete/thesauri__ontologies/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bonares-handbook/delete/thesauri__ontologies/">
+    <meta property="og:title" content="Thesauri and Ontologies">
+    <meta property="og:description" content="The use of controlled vocabularies with standardized, generally accepted and clearly assigned identifiers, definitions">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bonares-handbook/delete/thesauri__ontologies/">
+    <meta property="twitter:title" content="Thesauri and Ontologies">
+    <meta property="twitter:description" content="The use of controlled vocabularies with standardized, generally accepted and clearly assigned identifiers, definitions">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../static/img/zalf_logo.svg" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.5.0.761650745609" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.761650745609" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.761650745609" data-turbo-eval="false" defer></script>
+
+    <link href="./static/custom.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/img/zalf_logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/img/zalf_logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Handbook for BonaRes Repository</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.bonares.de" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1Zm3.241 10.5v-.001c-.1-2.708-.992-4.904-1.89-6.452a13.919 13.919 0 0 0-1.304-1.88L12 3.11l-.047.059c-.354.425-.828 1.06-1.304 1.88-.898 1.547-1.79 3.743-1.89 6.451Zm-12.728 0h4.745c.1-3.037 1.1-5.49 2.093-7.204.39-.672.78-1.233 1.119-1.673C6.11 3.329 2.746 7 2.513 11.5Zm18.974 0C21.254 7 17.89 3.329 13.53 2.623c.339.44.729 1.001 1.119 1.673.993 1.714 1.993 4.167 2.093 7.204ZM8.787 13c.182 2.478 1.02 4.5 1.862 5.953.382.661.818 1.29 1.304 1.88l.047.057.047-.059c.354-.425.828-1.06 1.304-1.88.842-1.451 1.679-3.471 1.862-5.951Zm-1.504 0H2.552a9.505 9.505 0 0 0 7.918 8.377 15.773 15.773 0 0 1-1.119-1.673C8.413 18.085 7.47 15.807 7.283 13Zm9.434 0c-.186 2.807-1.13 5.085-2.068 6.704-.39.672-.78 1.233-1.118 1.673A9.506 9.506 0 0 0 21.447 13Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>BonaRes Portal</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://www.bonares.de" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1Zm3.241 10.5v-.001c-.1-2.708-.992-4.904-1.89-6.452a13.919 13.919 0 0 0-1.304-1.88L12 3.11l-.047.059c-.354.425-.828 1.06-1.304 1.88-.898 1.547-1.79 3.743-1.89 6.451Zm-12.728 0h4.745c.1-3.037 1.1-5.49 2.093-7.204.39-.672.78-1.233 1.119-1.673C6.11 3.329 2.746 7 2.513 11.5Zm18.974 0C21.254 7 17.89 3.329 13.53 2.623c.339.44.729 1.001 1.119 1.673.993 1.714 1.993 4.167 2.093 7.204ZM8.787 13c.182 2.478 1.02 4.5 1.862 5.953.382.661.818 1.29 1.304 1.88l.047.057.047-.059c.354-.425.828-1.06 1.304-1.88.842-1.451 1.679-3.471 1.862-5.951Zm-1.504 0H2.552a9.505 9.505 0 0 0 7.918 8.377 15.773 15.773 0 0 1-1.119-1.673C8.413 18.085 7.47 15.807 7.283 13Zm9.434 0c-.186 2.807-1.13 5.085-2.068 6.704-.39.672-.78 1.233-1.118 1.673A9.506 9.506 0 0 0 21.447 13Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>BonaRes Portal</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="thesauri-and-ontologies" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#thesauri-and-ontologies">#</doc-anchor-trigger>
+        <span>Thesauri and Ontologies</span>
+    </h1>
+</doc-anchor-target>
+<p>The use of controlled vocabularies with standardized, generally accepted and clearly assigned identifiers, definitions
+and semantics are necessary for smooth data integration and to allow human- and machine readable exchange, query and
+reproduction of information. Semantic data annotation by controlled vocabularies is precondition to provide interoperability
+of data repositories. Standardizes ontologies enable integration of data and information to the Semantic Web.</p>
+<p>To link data and ensure its reusability it is important that thesauri are published online, using an open license and
+endowed with an URI (<a href="https://www.w3.org/TR/2014/NOTE-ld-bp-20140109/">W3C</a>, Best Practices for Publish Linked Data, 2014).
+General information for development and operate thesauri are described in <strong>ISO 25964 - Information and documentation –
+Thesauri &amp; interoperability with other vocabularies</strong><img src="/static/img/two_star.png" alt="" />, that is published in two parts:</p>
+<ul>
+<li><p><strong>1:2011 Thesauri for information retrieval</strong>
+This is part one of an international standard for thesauri, that is published in two parts. It provides recommendations
+for the development and maintenance of thesauri intended for information retrieval applications. It is applicable to
+vocabularies about all types of information resources including knowledge bases and portals, bibliographic databases, text,
+etc. It provides a data model and recommended format for the import and export of thesaurus data and can be applied for
+monolingual and multilingual thesauri. Based on the data model it includes also an XML schema for data exchange.</p>
+</li>
+<li><p><strong>2:2013 Interoperability with other vocabularies</strong>
+Provides guidelines for high quality information retrieval across networked resources that have been indexed with different
+vocabularies or Knowledge Organization Systems (KOS). It helps to set up mappings between different concepts
+(classification schema, taxonomies, subject heading schemas, ontologies, name authority lists, terminologies and synonym rings).</p>
+</li>
+</ul>
+<br>
+<doc-anchor-target id="overview-of-controlled-vocabularies-in-agricultural-and-environmental-science">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview-of-controlled-vocabularies-in-agricultural-and-environmental-science">#</doc-anchor-trigger>
+        <span>Overview of controlled vocabularies in agricultural and environmental science</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="agrovoc">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#agrovoc">#</doc-anchor-trigger>
+        <span><a href="http://aims.fao.org">AGROVOC</a>  <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>Is a multilingual vocabulary developed by the FAO. It defines and relates more than 36,000 concepts in 33 languages.
+The thesaurus is updated on a monthly basis. It is published as an RDF/SKOS-XL concept schema and accessible as Linked
+Data via SPARQL-endpoint. The thesaurus is aligned with 16 vocabularies as related to agriculture. Editing is possible for
+registered users through the web-based editing tool VocBench 3. AGROVOC is released under the license CC-BY IGO 3.0 and
+published by the web-based SKOS browser “Skosmos”. The JAVA Command Line application “AgroTagger”<img src="/static/img/one_star.png" alt="" />
+assigns and index semantic terms to textual content and as a keyword extractor from a set of web URLs. It allows to index
+web documents identifying main topics and creating RDF triples that link a Web URL to AGROVOC URIs.</p>
+<br>
+<doc-anchor-target id="gemet">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gemet">#</doc-anchor-trigger>
+        <span><a href="https://www.eionet.europa.eu/gemet/en/about/">GEMET</a>  <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="general-multilingual-environmental-thesaurus">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#general-multilingual-environmental-thesaurus">#</doc-anchor-trigger>
+        <span>(General Multilingual Environmental Thesaurus)</span>
+    </h4>
+</doc-anchor-target>
+<p>This thesaurus was developed by the European Environmental Information and Observation Network (EIONET). It summarizes
+different structured vocabularies and aims to define a common terminology for environmental terms in the European context.
+It is available in more than 27 languages and consists of more than 6000 records. At least one GEMET keyword is required
+to be conform to the INSPIRE metadata schema for geospatial data (ISO 19115, ISO 19119, ISO 19139).</p>
+<br>
+<doc-anchor-target id="agro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#agro">#</doc-anchor-trigger>
+        <span>AgrO  <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>The Agronomy Ontology (AgrO) is develoed by CGIAR and describes agronomic practices, techniques and variables used in
+agronomic experiments. AgrO use traits, ICASA variables, and other existing ontologies. In March 2019 it was in the alpha
+phase and nit released officially.</p>
+<br>
+<doc-anchor-target id="bco">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bco">#</doc-anchor-trigger>
+        <span>BCO  <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>The application ontology Biological Collections Ontology (BCO) includes semantics relations on biodiversity, museum collections,
+environmental samples, and ecological surveys.</p>
+<br>
+<doc-anchor-target id="cab-thesaurus">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cab-thesaurus">#</doc-anchor-trigger>
+        <span><a href="https://www.cabi.org/cabithesaurus/">CAB Thesaurus</a> <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>This open access, multi-lingual thesaurus is operated by CAB International (CABI) science-based organization and includes
+almost 3 million terms in world’s science and technical fields. It includes some 250,000 plant, animal and microorganism names.</p>
+<br>
+<doc-anchor-target id="crop-ontology">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crop-ontology">#</doc-anchor-trigger>
+        <span><a href="https://cropontology.org">Crop Ontology</a> <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>This ontology includes a large database with ontologies of crops and crop-related terms, structured in the categories
+phenotype, breeding, germplasm and trait. Terms are defined by a unique combination of  trait, method used and scale.
+It is open access and open to improve by the crop community.</p>
+<br>
+<doc-anchor-target id="eurovoc">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#eurovoc">#</doc-anchor-trigger>
+        <span><a href="https://op.europa.eu/en/web/eu-vocabularies">EUROVOC</a></span>
+    </h3>
+</doc-anchor-target>
+<p>This multilingual thesaurus maintained by the Publications Office of the European Union for indexing of documents of European institutions. It is available in 24 languages.</p>
+<br>
+<doc-anchor-target id="gcmd">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gcmd">#</doc-anchor-trigger>
+        <span>GCMD <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="global-change-master-directory">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#global-change-master-directory">#</doc-anchor-trigger>
+        <span>Global Change Master Directory</span>
+    </h4>
+</doc-anchor-target>
+<p>This directory was developed by NASA and can be implemented as thesaurus into a database. Keywords are provided in different
+scientific disciplines such as agriculture, atmosphere and hydrology.</p>
+<br>
+<doc-anchor-target id="iso-11074-2015">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#iso-11074-2015">#</doc-anchor-trigger>
+        <span>ISO 11074:2015 <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="soil-quality-vocabulary">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#soil-quality-vocabulary">#</doc-anchor-trigger>
+        <span>Soil quality, Vocabulary</span>
+    </h4>
+</doc-anchor-target>
+<p>This standard summarizes all relevant terms of soil science in a glossary and is available in a trilingual edition.
+It defines a list of terms used in the preparation of other standards in the field of soil quality.
+The terms are classified under the following main headings: general terms, description of soil, sampling and assessment
+of soils, remediation, and soil ecotoxicology.</p>
+<br>
+<doc-anchor-target id="nal">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#nal">#</doc-anchor-trigger>
+        <span>NAL <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="national-agricultural-library">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#national-agricultural-library">#</doc-anchor-trigger>
+        <span>National Agricultural Library</span>
+    </h4>
+</doc-anchor-target>
+<p>The United States Department of Agriculture (USDA) produced this agricultural vocabulary. It contains more than 135,000
+terms, is updated annually, bilingual (English, Spanish), and available as Linked Open Data. Provided download formats are XML,
+RDF-<a href="https://www.ebi.ac.uk/ols/index">OLS</a>. It is mainly used for indexing and for improving retrieval of agricultural information.</p>
+<br>
+<doc-anchor-target id="ncbi-taxon">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ncbi-taxon">#</doc-anchor-trigger>
+        <span>NCBI Taxon  <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>The National Center for Biotechnology Information (NCBI) provides an extensive list of field crops including codes</p>
+<br>
+<doc-anchor-target id="ontology-of-units-of-measure-and-related-concepts-om-version-2-0">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ontology-of-units-of-measure-and-related-concepts-om-version-2-0">#</doc-anchor-trigger>
+        <span>Ontology of Units of Measure and Related Concepts (OM), Version 2.0  <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>This ontology models concepts and relations for units, quantities, measurements and dimensions including conversion factors.
+It was developed by the Wageningen University and modelled in OWL 2.</p>
+<br>
+<doc-anchor-target id="qudt">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#qudt">#</doc-anchor-trigger>
+        <span><a href="https://www.qudt.org/2.1/catalog/qudt-catalog.html">QUDT</a>  <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="quantities-units-dimensions-and-data-types-ontologies">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quantities-units-dimensions-and-data-types-ontologies">#</doc-anchor-trigger>
+        <span>Quantities, Units, Dimensions and Data Types Ontologies</span>
+    </h4>
+</doc-anchor-target>
+<p>This ontology is under development by the NASA and provides first unified model of quantities, dimensions, units,
+and conversion factors. Each unit has its own URI and can thus be used as unique unit-identifier for data-sets.</p>
+<br>
+<br>
+<doc-anchor-target id="units-ontology-uo">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#units-ontology-uo">#</doc-anchor-trigger>
+        <span>Units Ontology (UO)</span>
+    </h2>
+</doc-anchor-target>
+<br>
+<doc-anchor-target id="anaee-thesaurus">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anaee-thesaurus">#</doc-anchor-trigger>
+        <span><a href="https://vocabulaires-ouverts.inrae.fr/2017/03/13/thesaurus-anaee/">AnaEE Thesaurus</a></span>
+    </h3>
+</doc-anchor-target>
+<br>
+<doc-anchor-target id="engmath">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#engmath">#</doc-anchor-trigger>
+        <span><a href="http://www.ksl.stanford.edu/knowledge-sharing/papers/engmath.html">EngMath</a></span>
+    </h3>
+</doc-anchor-target>
+<p>This ontology was developed for mathematical modeling and is mostly used by engineers.</p>
+<br>
+<doc-anchor-target id="eppo-plant-protection-thesaurus">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#eppo-plant-protection-thesaurus">#</doc-anchor-trigger>
+        <span>EPPO Plant Protection Thesaurus</span>
+    </h3>
+</doc-anchor-target>
+<p>This European thesaurus includes pest-specific information, names (multi-lingual) and codes for plants, animals and microorganisms.</p>
+<br>
+<doc-anchor-target id="gacs">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gacs">#</doc-anchor-trigger>
+        <span>GACS</span>
+    </h3>
+</doc-anchor-target>
+<p>The GACS project developed this semantic concept scheme which integrates three important agricultural thesauri:
+AGROVOC, CAB and NAL thesauri. GACS was planned to be a hub for all concepts and shared value lists related to agriculture.
+In November 2019 the participants agreed that GACS URIs should not be promoted for use since GACS is not actively being maintained.
+Data is from 2016 and will not be actively maintained in the future.</p>
+<br>
+<doc-anchor-target id="landvoc">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#landvoc">#</doc-anchor-trigger>
+        <span>LandVoc</span>
+    </h3>
+</doc-anchor-target>
+<p>This vocabulary was created by Land Portal organization and includes a set of 270 concept about land governance.
+LandVoc is mainly derived from AGROVOC but links together other vocabularies.</p>
+<br>
+<doc-anchor-target id="prov-o">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prov-o">#</doc-anchor-trigger>
+        <span>PROV-O</span>
+    </h3>
+</doc-anchor-target>
+<p>This <a href="https://www.w3.org/TR/2014/NOTE-ld-bp-20140109/">W3C</a> ontology provides a set of classes, properties,
+and restrictions that can be used to represent and interchange provenance information generated in different systems
+and under different contexts. It can also be specialized to create new classes and properties to model provenance
+information for different applications and domains.</p>
+<br>
+<doc-anchor-target id="semantic-sensor-network-ontology">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#semantic-sensor-network-ontology">#</doc-anchor-trigger>
+        <span>Semantic Sensor Network Ontology</span>
+    </h3>
+</doc-anchor-target>
+<p>This ontology was developed by the W3C Semantic Sensor Networks Incubator Group and describes sensors, observations, and
+related concepts <a href="https://www.w3.org/2005/Incubator/ssn/ssnx/ssn">[1]</a>. It provides numerous suggestions on the management
+of sensor data including metadata of sensor description (e.g. accuracy, detection limit).</p>
+<br>
+<br>
+<doc-anchor-target id="overview-of-vocabulary-portals-look-up-services-registries-visualization-and-gazetteers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview-of-vocabulary-portals-look-up-services-registries-visualization-and-gazetteers">#</doc-anchor-trigger>
+        <span>Overview of vocabulary portals, look-up services, registries, visualization, and gazetteers</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="agroportal">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#agroportal">#</doc-anchor-trigger>
+        <span>AgroPortal  <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>The web portal provides access to agricultural ontologies and thesauri. Via a search field terms can be entered and concepts of more than 100 agricultural vocabularies. Registered user can provide new ontologies to this web service.</p>
+<br>
+<doc-anchor-target id="godan">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#godan">#</doc-anchor-trigger>
+        <span><a href="https://vest.agrisemantics.org/about/structure?qt-content_organization_tabs=3#qt-content_organization_tabs">GODAN</a> <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="agrisemantics-map-of-data-standards">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#agrisemantics-map-of-data-standards">#</doc-anchor-trigger>
+        <span>Agrisemantics Map of Data Standards</span>
+    </h4>
+</doc-anchor-target>
+<p>This portal provides a global overview of existing vocabularies for the exchange of agricultural data. It is grouped in 14 main categories, such as “Natural Resources, Earth and Environment”.</p>
+<br>
+<doc-anchor-target id="geonames">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#geonames">#</doc-anchor-trigger>
+        <span>GeoNames</span>
+    </h3>
+</doc-anchor-target>
+<p>This geographical database contains more than 11 million names of places.</p>
+<br>
+<doc-anchor-target id="ontobee">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ontobee">#</doc-anchor-trigger>
+        <span><a href="https://ontobee.org">Ontobee</a></span>
+    </h3>
+</doc-anchor-target>
+<p>This ontology register includes some 200 ontologies from natural science, including agriculture. It presents ontology term URIs to HTML web pages (user-friendly web browsing) and to RDF source codes for Semantic Web applications.</p>
+<br>
+<doc-anchor-target id="ontology-lookup-service-ols">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ontology-lookup-service-ols">#</doc-anchor-trigger>
+        <span>Ontology Lookup Service (<a href="https://www.ebi.ac.uk/ols/index">OLS</a>)</span>
+    </h3>
+</doc-anchor-target>
+<p>OLS is a web service interface which allows queries from a register with more than 200 ontologies. The lookup service
+includes more than 5 million terms. Results link to single ontologies, concepts and output formats.</p>
+<br>
+<doc-anchor-target id="open-tree-of-life">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#open-tree-of-life">#</doc-anchor-trigger>
+        <span>Open Tree of Life</span>
+    </h3>
+</doc-anchor-target>
+<p>Was funded by the NSF, describes and visualizes the biological taxonomic classification system and can be used to allocate
+taxonomic species names and classes.</p>
+<br>
+<doc-anchor-target id="planteome">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#planteome">#</doc-anchor-trigger>
+        <span><a href="https://planteome.org">Planteome</a></span>
+    </h3>
+</doc-anchor-target>
+<p>The project provides a platform to search and browse plant species, plant traits, phenotypes and gene expressions from different information systems.</p>
+<br>
+<br>
+<doc-anchor-target id="overview-of-tools-specifications-initiatives-data-models-and-ontology-languages">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview-of-tools-specifications-initiatives-data-models-and-ontology-languages">#</doc-anchor-trigger>
+        <span>Overview of tools, specifications, initiatives, data models and ontology languages</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="skos">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#skos">#</doc-anchor-trigger>
+        <span>SKOS <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="simple-knowledge-organization-system">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#simple-knowledge-organization-system">#</doc-anchor-trigger>
+        <span>Simple Knowledge Organization System</span>
+    </h4>
+</doc-anchor-target>
+<p>SKOS is a <a href="https://www.w3.org/TR/2014/NOTE-ld-bp-20140109/">W3C</a> recommendation for the representation of thesauri,
+classification etc. or any other controlled vocabulary. It gives guidelines to facilitate publication and use of
+vocabularies as Linked Data. SKOS is part of the Semantic Web standards built upon RDF and RDFS. SKOS was formal
+released in 2009 by W3C as a new standard that connects different KOS and the linked data community.
+It defines classes and properties to present common features of a standard thesaurus.</p>
+<br>
+<doc-anchor-target id="rdf">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rdf">#</doc-anchor-trigger>
+        <span>RDF <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="resource-description-framework">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#resource-description-framework">#</doc-anchor-trigger>
+        <span>Resource Description Framework</span>
+    </h4>
+</doc-anchor-target>
+<p>RDF is a family of W3C specifications that is applied as a general method for conceptual description or modeling of
+information that is implemented in web resources. Via an Application Programming Interface (e.g. RDF API)
+a standardized interface can be implemented e.g. in within web-based data portals.</p>
+<br>
+<doc-anchor-target id="iso-iec-13250-2-2006">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#iso-iec-13250-2-2006">#</doc-anchor-trigger>
+        <span>ISO/IEC 13250-2:2006 <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="information-technology--topic-maps">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#information-technology--topic-maps">#</doc-anchor-trigger>
+        <span>Information technology – Topic Maps</span>
+    </h4>
+</doc-anchor-target>
+<p>This standard regulates the representation and interchange of knowledge, especially for information retrieval.
+Topic Maps enable the linkage of multiple indexes from different sources. The standard defines the abstract structure and
+interpretation of Topic Maps, rules for merging them and a set of fundamental subject identifiers. The purpose of the data
+model is to define the interpretation of the Topic Maps interchange syntax, and to serve as a foundation for the definition
+of supporting standards for canonicalization, querying, constraints, etc.</p>
+<br>
+<doc-anchor-target id="owl-web-ontology-language">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#owl-web-ontology-language">#</doc-anchor-trigger>
+        <span>OWL (Web Ontology Language)   <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>Ontology language developed (and updated to OWL 2) by the W3C. It meets the requirements of the Semantic Web.
+Ontologies which were written in OWL 2 (e.g. OM) can be used and exchanged as RDF documents. Relations between agricultural
+terms, a set of 179 custom relations is provided by e.g. <strong>Agrontology</strong> (as used in AGROVOC).</p>
+<br>
+<doc-anchor-target id="vocbench">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vocbench">#</doc-anchor-trigger>
+        <span>VocBench  <img src="/static/img/two_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>Is an open source, web-based multilingual vocabulary editing and workflow tool. It was originally developed and released by
+the FAO and the Artificial Intelligence Research Group of the University of Rome Tor Vergata to manage AGROVOC, but now hosts
+a still expanding set of vocabularies.</p>
+<br>
+<doc-anchor-target id="data-catalog-vocabulary-dcat">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-catalog-vocabulary-dcat">#</doc-anchor-trigger>
+        <span>Data Catalog Vocabulary (DCAT)  <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<p>This RDF specification was designed by W3C to facilitate the interoperability between and search across different data catalogues.
+DCAT does not make any assumptions about the format of the datasets described in a catalogue. It incorporates terms from other
+vocabularies with stable term with appropriate meanings (e.g., foaf:homepage or dct:title).</p>
+<br>
+<doc-anchor-target id="rdfs">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rdfs">#</doc-anchor-trigger>
+        <span>RDFS <img src="/static/img/one_star.png" alt="" /></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="resource-description-framework-schema">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#resource-description-framework-schema">#</doc-anchor-trigger>
+        <span>Resource Description Framework Schema</span>
+    </h4>
+</doc-anchor-target>
+<p>This RDF schema can be used for sematic data models and was published by the W3C (1998). It includes several classes with
+certain properties using the RDF extensible representation data model, providing basic elements for the description of ontologies.</p>
+<br>
+<doc-anchor-target id="schemaorg">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#schemaorg">#</doc-anchor-trigger>
+        <span>schema.org</span>
+    </h3>
+</doc-anchor-target>
+<p>Is a collaborative activity founded by technology companies (Google, Yahoo, Microsoft), to develop a standardized ontology
+to structure web data, based on existing markup languages. It provides a standardized schema for structured data on the
+internet and defines entities and relationships to be used to describe data sets or web pages. It is used to structure data
+in the research data search tool “Google Dataset Search”.</p>
+<br>
+<doc-anchor-target id="use-cases-for-applied-thesauri-in-databases">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#use-cases-for-applied-thesauri-in-databases">#</doc-anchor-trigger>
+        <span>Use cases for applied thesauri in databases</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="agris">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#agris">#</doc-anchor-trigger>
+        <span><a href="https://agris.fao.org/agris-search/index.do">AGRIS</a></span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="international-system-for-agricultural-science-and-technology">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#international-system-for-agricultural-science-and-technology">#</doc-anchor-trigger>
+        <span>(International System for Agricultural Science and Technology)</span>
+    </h4>
+</doc-anchor-target>
+<p>Is a global public domain database published by the FAO with more than 8 million records on agricultural science and technology.
+The AGRIS Search system allows scientists, researchers and students to perform sophisticated searches using keywords from the
+AGROVOC thesaurus, specific journal titles or names of countries, institutions, and authors. The AGRIS is a RDF-aware system
+and AGRIS database is exposed as RDF.</p>
+<br>
+<doc-anchor-target id="conflicts-and-solutions">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#conflicts-and-solutions">#</doc-anchor-trigger>
+        <span>Conflicts and solutions</span>
+    </h2>
+</doc-anchor-target>
+<p>The AGROVOC thesaurus is widely accepted and appreciated within the agricultural science community. However, soil terms
+and concepts are often missing or inadequately described or assigned. Terms and concepts are permanently edited and improved by
+the experts (AGROVOC Editors) using the editing tool VocBench3.</p>
+<div class="bonares_reference"><doc-anchor-target id="references">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#references">#</doc-anchor-trigger>
+        <span>References</span>
+    </h3>
+</doc-anchor-target>
+<p>[1] Group, W3C Semantic Sensor Network Incubator (2009). Semantic Sensor Network Ontology (<a href="http://purl.oclc.org/NET/ssnx/ssn">http://purl.oclc.org/NET/ssnx/ssn</a>).</p>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../delete/mentioned_standards/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Mentioned Standards</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../delete/credits/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Credits</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://www.bonares.de/imprint">Imprint</a>
+                                        </li>
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://www.bonares.de/privacypolicy">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="license.md">License</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright . All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Thesauri and Ontologies", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
