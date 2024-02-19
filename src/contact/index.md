@@ -7,6 +7,6 @@ order: 200
 
 # Frequently Asked Questions
 
-[!ref](/appendix/recommended_standards.md)
-[!ref](/appendix/code_lists.md)
-[!ref](/appendix/web_links.md)
+### Contact the support of BonaRes Repository
+:icon-person: [https://www.bonares.de/contact](https://www.bonares.de/contact) <br>
+:icon-mail: [support-data@bonares.de](support-data@bonares.de)
