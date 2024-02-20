@@ -17,7 +17,7 @@ If data are already published in another open repository, the BonaRes Centre off
 _Download the metadata template [here](https://tools.bonares.de/submission/)_
 :::
 
-### How to Fill out the metadata template
+### How to Fill out the Metadata Template
 
 - **Title English:** Max of xxxxx characters
 - **Title German:** Max of xxxx characters

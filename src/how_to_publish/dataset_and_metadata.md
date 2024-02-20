@@ -4,7 +4,7 @@ icon: project-roadmap
 expanded: false
 order: 30
 ---
-# Dataset and Metada Submission
+# Dataset and Metadata Submission
 
 ### Submit a new dataset
 
