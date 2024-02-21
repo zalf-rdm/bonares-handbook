@@ -1,5 +1,5 @@
 ---
-label: Download and fill the metadata Template
+label: Download and fill out the metadata Template
 icon: desktop-download
 expanded: false
 order: 40

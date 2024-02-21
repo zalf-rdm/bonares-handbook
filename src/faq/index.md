@@ -15,7 +15,7 @@ order: 300
 
 > With complete metadata it takes normally 2-3 business days depending on the work load
 
-==- :heavy_check_mark:  *What is an embargo
+==- :heavy_check_mark:  What is an embargo?
 
 > Embargo refers to a period during which the data cannot be downloaded.
 
@@ -49,27 +49,27 @@ order: 300
 
 ==- :heavy_check_mark:  _In what format should the dataset be uploaded?_
 
-Only upload files of property 'txt', 'csv', 'xls', 'xslx', 'zip', 'docx', 'jpg', 'pdf', 'shp', 'tif', 'tiff', 'png', 'gif'and with a size smaller than 30 MB.
+> Only upload files of property 'txt', 'csv', 'xls', 'xslx', 'zip', 'docx', 'jpg', 'pdf', 'shp', 'tif', 'tiff', 'png', 'gif'and with a size smaller than 30 MB.
 
 ==- :heavy_check_mark:  _Can I upload datasets bigger than 30 MB?_
 
-No. However, you can contact the support team and they will help you.
+> No. However, you can contact the support team and they will help you.
 
 ==- :heavy_check_mark:  _Where can I find an overview about the status of my data submissions?_
 
-Login to the upload tool and check under ‘My submissions’ in the upper right section.
+> Login to the upload tool and check under ‘My submissions’ in the upper right section.
 
 ==- :heavy_check_mark:  _Is there any fee associated with data publishing in the BonaRes Repository?_
 
-No
+> No
 
 ==- :heavy_check_mark:  _How will my dataset be cited?_
 
-Once the dataset is published, you can copy the citation in the ‘access’ section of the metadata.
+> Once the dataset is published, you can copy the citation in the ‘access’ section of the metadata.
 
 ==- :heavy_check_mark:  _Can I link a paper or other publication to my dataset?_
 
-Yes. Upload all related works and specify in the metadata template how they are related to the dataset to be published.
+> Yes. Upload all related works and specify in the metadata template how they are related to the dataset to be published.
 
 ==- :heavy_check_mark:  _Who can be considered an author of a dataset?_
 

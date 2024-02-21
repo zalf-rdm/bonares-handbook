@@ -22,14 +22,3 @@ An overview of all datasets submitted so far appears in the user account under [
 ![_Submission details_](/static/img/fig_submission_details.png)
 :::
 After a dataset has been transferred to the BonaRes Centre, it is checked formally and in terms of content  (e. g. thematically fit into the BonaRes Repository) by data stewards. Formal checks are, e. g. empty columns, outliers or not plausible values. Conspicuous data are communicated back to the data provider. In the future, the test should carried out by an automated tool. After a dataset passed this formal check, further metadata will be prepared (see chapter Metadata), which can be downloaded as PDF.
-
-:::content
-### Prepared metadata with **information from the upload tool and the data table:**
-* Description: **Title, summary, research domain, research question, date of submission,** editor, reference system, geographical location (very rough)
-* Categorization: **Project category**, standard keywords for BonaRes with associated thesaurus, topic category, **soil functions**
-* Access: Restrictions on use, license for use
-* Distribution: Output format, data provider
-* Quality: Lineage statement
-* Metadata: Metadata standard and version
-* Data model: **First column descriptions of the data table**
-:::

@@ -6,7 +6,7 @@ order: 50
 ---
 # Registration on BonaRes Repository
 
-A **one-time registration** is required to use the services of the BonaRes Centre e. g., the [upload tool](https://upload.bonares.de/) and the metadata editor  
+A **one-time registration** is required to use the services of the BonaRes Centre e. g., the [upload tool](https://upload.bonares.de/)
 
 ### 1. Specification of user name and email address, as well as assignment of a password
 
@@ -17,8 +17,9 @@ A **one-time registration** is required to use the services of the BonaRes Centr
    - it must contain at least 3 character classes (e.g. uppercase, lowercase, special characters, numbers)
 
 ### 2.Signup ![](/static/img/fig_registration.png)
-_[Registration window on the BonaRes website](https://tools.bonares.de/account/signup)_
-
+:::content-center
+_[Data upload tool](https://tools.bonares.de/account/signup)_
+:::
 ### 3. Receive a confirmation email from the BonaRes Repository (double opt in)
 ### 4. Confirm the registration by clicking the link in the email
 

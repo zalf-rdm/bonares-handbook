@@ -7,6 +7,12 @@ order: 200
 
 # Frequently Asked Questions
 
-### Contact the support of BonaRes Repository
-:icon-person: [https://www.bonares.de/contact](https://www.bonares.de/contact) <br>
-:icon-mail: [support-data@bonares.de](support-data@bonares.de)
+### BonaRes Repository
+**Leibniz Centre for Agricultural Landscape Research (ZALF) <br>**
+Eberswalder Strasse 84 <br>
+15374 Müncheberg, Germany <br>
+:icon-person: (+49) 033432 82 300 <br>
+:icon-mail: [dataservice@zalf.de](dataservice@zalf.de) <br>
+:icon-globe: [https://www.bonares.de/research-data](https://www.bonares.de/research-data) <br>
+
+

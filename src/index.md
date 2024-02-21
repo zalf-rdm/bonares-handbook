@@ -1,80 +1,90 @@
 ---
-label: Data Preparation
-icon: versions
+label: Home
+icon: home
 expanded: false
-order: 600
+order: 700
 ---
-# Data Preparation
 
-A dataset summarizes research data on a delimited situation in a structured manner. The research data should be prepared
-in such a way that **easy reuse** is possible. In principle, the data record should be **tabular and column-based**. In
-most cases, soil and agricultural data have a **spatial reference**. The spatial position of the measuring points or
-areas should be given in the table as detailed as possible.
+# Data Standards for Soil- and Agricultural Research
 
-A typical dataset for data transfer to the BonaRes Data Centre has the following properties:
+**Authors**: Carsten Hoffmann, Sina Schulz, Einar Eberhardt, Meike Grosse, Susanne Stein, Xenia Specka, Nikolai Svoboda,
+Uwe Heinrich
 
-Each column (attribute) of the table contains the attribute name in the first row and the attribute values in the
-following rows, which means the data within the **table are column-oriented**. Each table or dataset must be given a
-short, concise name. For widespread reuse, work should be done in English if possible.
+This living document has been produced in the framework of the German research
+initiative [BonaRes](https://www.bonares.de) (Soil as a sustainable resource for the bio-economy). The third
+version is published in the [BonaRes Series, 2020](https://tools.bonares.de/doi/doc/25/) with more than 600 standards, 
+as relevant for the soil- and agricultural research data management. As the report is a living document, the report is
+transferred to this web application to compile, discuss and recommend the latest state of data standards for 
+soil and agricultural research. 
 
-Typically, each table contains the following standard attributes:
+It is grouped based on three major data life stages and might act as a helpful reference
+work for the soil-agricultural research data community.
 
-_Table 1: Example table with typical standard attributes of a data table_
+1. [Data acquisition](/data_acquisition)
+2. [Data management](/data_management)
+3. [Data provision](/data_provision)
 
-<div class="table-wrapper scrollbar overflow-hidden">
-   <table class="comfortable">
-   <thead style="font-size: 24px; background-color: #A8A8A8">
-      <thead>
-         <tr>
-            <th><strong>Identifier</strong></th>
-            <th><strong>x-coordinate</strong></th>
-            <th><strong>y-coordinate</strong></th>
-            <th><strong>Date</strong></th>
-            <th><strong>beetles</strong></th>
-            <th><strong>Attribute 2</strong></th>
-            <th><strong>Attribute n</strong></th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>1</td>
-            <td>52,460126<br>
-            <td>13,296310<br>
-            <td>17.04.2018<br>
-            <td>5<br>
-            <td>...<br>
-            <td>...<br>
-         </tr>
-      </tbody>
-   </table>
-</div>
+## Motivation
 
-{.compact}
-**The following formal criteria must be met:**
----
-1. **Tables** are unformatted (do not contain grafical elements, colored lines, …) 
-2. There are no internal references or formulas within a table |
-3. Tables contain only **one** worksheet (avoid Excel folders with multiple sheets)
-4. **In case of multiple sheets**, upload each sheet as a **separate table**
-5. Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”)
-6. **Column delimiter** is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)
-7. Attribute names contain **no spaces** (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units
-8. ...are a maximum of 30 characters long
-9. ...**do not** start with a number
-10. ...are only assigned **once**
-11. **Missing values** are explicitly marked and clearly differ from “none specification "and" 0 "
-12. Values within a column are constant (**no change of reference variable or unit**)
-13. Values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”
-14. Only one value specified per cell
-15. Cells **are not** connected
-16. ... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter)
-17. IDs are only assigned **once**
-18. Each line is available **once**(there are no double lines e. g. due to copy errors)
-19. Cells contain no spaces
- 
+The use of open and widely accepted standards is the basis for modern (FAIR, [[1]](https://doi.org/10.1038/sdata.2016.18)) research data management. In this context, task of
+this report is to describe, compare, review and recommend standards for the whole data life and to assist soil- and
+agricultural scientists to store their research data into a data infrastructure to make them findable and accessible in
+the long-term for any reuse. Missing and competitive national and international standards and potential conflicts are
+stated and, based on internal and external expert knowledge, outstanding standards are highlighted and summarized to
+recommendations:
 
-The prepared dataset should be submitted in the **file format txt, csv, xls or xslx.** Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Centre also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the [support of BonaRes Repository](mailto:support-data@bonares.de).
+!!!light Recommendation explanation
 
-!!!success File Formats
-Datasets submitted in file formats, which can be integrated to the SQL database of the BonaRes Data Centre is made available with full service (options for file formats and coordinate system, description of the data model, ...). Other research data e.g., Pictures, videos or comparable formats can be downloaded by the re-user in the file format as submitted. If you have any questions, contact the [support of BonaRes Repository](mailto:support-data@bonares.de)
+![](/static/img/one_star.png)![](/static/img/one_star.png) Favored = highly recommended for application <br>
+![](/static/img/one_star.png) OK = acceptable alternative but maybe requires later transformation
 !!!
+
+In the [Appendix](appendix/index.md) the highly recommended standards as well as many code lists, glossaries and web
+links are listed in tables
+
+## The BonaRes Repository
+
+In July 2017, the BonaRes Centre launched
+the [BonaRes Repository](https://maps.bonares.de/mapapps/resources/apps/bonares/index.html?lang=en) for soil and
+agricultural research data. Beside data from national research projects, the repository is open for other soil-related
+data, e.g. from agricultural long-term field experiments (LTE). The BonaRes Centre provides DOI, easy access and
+long-term availability for all uploaded research data. According to
+the Berlin Declaration on Open Access (2003)[[2]](https://openaccess.mpg.de/Berlin-Declaration) and the initiative
+“Digitale Information”[[3]](http://www.allianzinitiative.de/en/) , metadata and research data will not be subject to any restrictions
+on reuse. Metadata are always available and, after a limited embargo-time, also research data are provided accessible
+for the international research community. Further information is given in the BonaRes Data
+Guideline [[4]](http://doi.org/10.20387/BonaRes-E1AZ-ETD7).
+
+[!embed](https://youtu.be/wo0Rv4YPjCo)
+
+According to the [GitHub FAIRMetrics](https://github.com/FAIRMetrics/Metrics),
+the [BonaRes Repository](https://maps.bonares.de/mapapps/resources/apps/bonares/index.html?lang=en) serves all relevant
+elements of FAIR data principles (Findable, Accessible, Interoperable, Reusable, see [[1]](https://doi.org/10.1038/sdata.2016.18)), and
+additionally, provides legal security for sensitive data and facilitate data up- and downloads. To meet these demands
+and to enhance research data reusability (FAIR Principle R 1.3)[[1]](https://doi.org/10.1038/sdata.2016.18), the use of relevant open community standards and data
+documentation during data life is necessary. Such standards concern, beside others, the classification and description
+of soils, field- and lab methods, agricultural technology, plant varieties, fertilizers, farming and agricultural
+business, data quality control, ontologies, data formats, data storage and -archiving, and metadata management. All
+standards which are recommended within this document are supported by the BonaRes repository. Research data which were
+collected under standardized conditions, described with coherent metadata, proofed by quality tests, and stored in the
+repository, will be visible, accessible and citable for any data reuse (e.g. modelling), exchange or review.
+
+In the long term it is planned to consolidate the BonaRes Repository into international infrastructures for soil and
+agricultural research data. This requires data interoperability by internationally accepted and applied standards.
+Transformation tools may help to translate data from national to international valid systems and formats.
+
+:::bonares_reference
+
+## References
+
+[1] Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and
+stewardship. Sci Data 3, 160018 (2016). DOI: [10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+
+[2] Berlin Declaration on Open Access (2003). https://openaccess.mpg.de/Berliner-Erklaerung.
+
+[3] Alliance of Science Organizations in Germany (2013). http://www.allianzinitiative.de/en/.
+
+[4] Svoboda, N. and U. Heinrich (2017). The BonaRes Data Guideline. BonaRes Data Centre. http://doi.org/10.20387/BonaRes-E1AZ-ETD7.
+
+:::
+
