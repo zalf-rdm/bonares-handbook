@@ -17,12 +17,6 @@ as relevant for the soil- and agricultural research data management. As the repo
 transferred to this web application to compile, discuss and recommend the latest state of data standards for 
 soil and agricultural research. 
 
-It is grouped based on three major data life stages and might act as a helpful reference
-work for the soil-agricultural research data community.
-
-1. [Data acquisition](/data_acquisition)
-2. [Data management](/data_management)
-3. [Data provision](/data_provision)
 
 ## Motivation
 
