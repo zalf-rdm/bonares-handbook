@@ -1,25 +1,33 @@
-
-
 #docs-app {
-  font-family: "Titillium Web", sans-serif !important;
+  font-family: "Open Sans", "Titillium Web", sans-serif !important;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
 nav a {
-  color: #019601 !important;
+  color: #454645 !important;
+  font-family: "Open Sans", "Titillium Web", sans-serif !important;
+  font-weight: bold !important;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 400 !important;
 }
 
 
 
-  #docs-site-header {
-    background-image: url("./img/header.svg");
-    background-position: right ;
-    background-repeat: no-repeat;
-    background-size: cover ;
-    background-color: #d5dbd5e1 ;
- }
+#docs-site-header {
+  background-image: url("./img/header.png");
+  background-position: top -4px right 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d5dbd5e1;
+  height: 100px;
+}
 
- .infos {
+.infos {
   text-align: left;
   border-radius: 10px;
   background-color: #ebebeb;
@@ -27,4 +35,3 @@ nav a {
   padding-top: 20px;
   margin-bottom: 20px;
 }
-
