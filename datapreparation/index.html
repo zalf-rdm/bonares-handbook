@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.767086891965">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.767092185782">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,11 +31,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/img/zalf_logo.svg" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.767086891965" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.767092185782" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.767086891965" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.767092185782" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.767086891965" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.767092185782" data-turbo-eval="false" defer></script>
 
     <link href="./static/custom.css" rel="stylesheet" />
 </head>
@@ -199,63 +199,101 @@ areas should be given in the table as detailed as possible.</p>
 following rows, which means the data within the <strong>table are column-oriented</strong>. Each table or dataset must be given a
 short, concise name. For widespread reuse, work should be done in English if possible.</p>
 <p>Typically, each table contains the following standard attributes:</p>
-<p><em>Table 1: Example table with typical standard attributes of a data table</em></p>
-<div class="table-wrapper scrollbar overflow-hidden">
-   <table class="comfortable">
-   <thead style="font-size: 24px; background-color: #A8A8A8">
-      <thead>
-         <tr>
-            <th><strong>Identifier</strong></th>
-            <th><strong>x-coordinate</strong></th>
-            <th><strong>y-coordinate</strong></th>
-            <th><strong>Date</strong></th>
-            <th><strong>beetles</strong></th>
-            <th><strong>Attribute 2</strong></th>
-            <th><strong>Attribute n</strong></th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>1</td>
-            <td>52,460126<br>
-            <td>13,296310<br>
-            <td>17.04.2018<br>
-            <td>5<br>
-            <td>...<br>
-            <td>...<br>
-         </tr>
-      </tbody>
-   </table>
-</div>
-<doc-anchor-target id="the-following-formal-criteria-must-be-met" class="compact">
-    <h2>
+<p><em>Table 1: Example table with typical standard attributes of a data table</em>
+<img src="/static/img/table_format.png" alt=" table format" /></p>
+<br>
+<br>
+<doc-anchor-target id="the-following-formal-criteria-must-be-met">
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#the-following-formal-criteria-must-be-met">#</doc-anchor-trigger>
-        <span>
-<strong>The following formal criteria must be met:</strong></span>
-    </h2>
+        <span>The following formal criteria must be met:</span>
+    </h3>
 </doc-anchor-target>
-<ol>
-<li><strong>Tables</strong> are unformatted (do not contain grafical elements, colored lines, …)</li>
-<li>There are no internal references or formulas within a table |</li>
-<li>Tables contain only <strong>one</strong> worksheet (avoid Excel folders with multiple sheets)</li>
-<li><strong>In case of multiple sheets</strong>, upload each sheet as a <strong>separate table</strong></li>
-<li>Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”)</li>
-<li><strong>Column delimiter</strong> is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)</li>
-<li>Attribute names contain <strong>no spaces</strong> (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units</li>
-<li>...are a maximum of 30 characters long</li>
-<li>...<strong>do not</strong> start with a number</li>
-<li>...are only assigned <strong>once</strong></li>
-<li><strong>Missing values</strong> are explicitly marked and clearly differ from “none specification &quot;and&quot; 0 &quot;</li>
-<li>Values within a column are constant (<strong>no change of reference variable or unit</strong>)</li>
-<li>Values in the cells contain no units, explanations or abbreviations e. g. &quot;Under detection limit” or “&lt; 0.00 ”</li>
-<li>Only one value specified per cell</li>
-<li>Cells <strong>are not</strong> connected</li>
-<li>... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter)</li>
-<li>IDs are only assigned <strong>once</strong></li>
-<li>Each line is available <strong>once</strong>(there are no double lines e. g. due to copy errors)</li>
-<li>Cells contain no spaces</li>
-</ol>
-<p>The prepared dataset should be submitted in the <strong>file format txt, csv, xls or xslx.</strong> Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Centre also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the <a href="mailto:support-data@bonares.de">support of BonaRes Repository</a>.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>-</th>
+<th><strong>Criteria list</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Tables</strong> are unformatted (do not contain grafical elements, colored lines, …)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>There are no internal references or formulas within a table</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tables contain only <strong>one</strong> worksheet (avoid Excel folders with multiple sheets)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>asadas Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Column delimiter</strong> is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Attribute names contain <strong>no spaces</strong> (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units</td>
+</tr>
+<tr>
+<td>7</td>
+<td>...are a maximum of 30 characters long</td>
+</tr>
+<tr>
+<td>8</td>
+<td>...<strong>do not</strong> start with a number</td>
+</tr>
+<tr>
+<td>9</td>
+<td>...are only assigned <strong>once</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Missing values</strong> are explicitly marked and clearly differ from “none specification &quot;and&quot; 0 &quot;</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Values within a column are constant (<strong>no change of reference variable or unit</strong>)</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Values in the cells contain no units, explanations or abbreviations e. g. &quot;Under detection limit” or “&lt; 0.00 ”</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Only one value specified per cell</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Cells <strong>are not</strong> connected</td>
+</tr>
+<tr>
+<td>15</td>
+<td>... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter)</td>
+</tr>
+<tr>
+<td>16</td>
+<td>IDs are only assigned <strong>once</strong></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Each line is available <strong>once</strong>(there are no double lines e. g. due to copy errors)</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Cells contain no spaces</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The prepared dataset should be submitted in the <strong>file format txt, csv, xls or xslx.</strong> Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Repository also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the <a href="mailto:support-data@bonares.de">support of BonaRes Repository</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
