@@ -1,43 +1,43 @@
-
-#docs-app{
+#docs-app {
     font-family: "Titillium Web", sans-serif;
 }
 
 
-  
+
 #docs-site-header {
-    background-image: url("./img/header.svg") !important;
+    background-image: url("./img/header_old.svg") !important;
     background-position: right !important;
-    background-repeat: no-repeat!important;
+    background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-color: #d5dbd5e1 !important;
- }
+    background-color: #01a701e1 !important;
+}
 
 #docs-app nav {
-    color: #a9ac01; 
+    color: #a9ac01;
     font-weight: 300;
 }
 
 #docs-app nav a {
-    color: #004900; 
+    color: #004900;
     font-weight: 300;
 }
 
- #docs-app aside {
-    background-color: #454645; 
-    color: #ffffff; 
+#docs-app aside {
+    background-color: #454645;
+    color: #ffffff;
 }
 
 #docs-app aside div {
-    background-color:#454645; 
-    color: #ffffff; 
+    background-color: #454645;
+    color: #ffffff;
 }
 
 #docs-app aside a {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
-#docs-app aside a:hover, #docs-app aside button:hover {
+#docs-app aside a:hover,
+#docs-app aside button:hover {
     color: #797979;
 }
 
