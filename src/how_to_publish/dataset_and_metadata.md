@@ -58,9 +58,9 @@ To illustrate the research data, you can use a **data model** that shows the dat
 :::content-center
 ![__](/static/img/fig_select_dataset.png)
 :::
-Afterwards, additional information can be given specifically for the BonaRes Centre. In addition, the BonaRes data guideline must be approved and assured that the authority exists to hand over the data to the repository and that it has not yet been published elsewhere. This means that the data owner does not necessarily have to submit the data himself and can also designate someone else as the data provider.
+Afterwards, additional information can be given specifically for the BonaRes Repository. In addition, the BonaRes data guideline must be approved and assured that the authority exists to hand over the data to the repository and that it has not yet been published elsewhere. This means that the data owner does not necessarily have to submit the data himself and can also designate someone else as the data provider.
 
-If all fields have been filled in, the dataset can be transferred to the BonaRes Centre by clicking on **“Submit”**. The BonaRes Centre sends an automatic **confirmation email** afterwards with a ticket number.
+If all fields have been filled in, the dataset can be transferred to the BonaRes Repository by clicking on **“Submit”**. The BonaRes Repository sends an automatic **confirmation email** afterwards with a ticket number.
 
 ### Upload form: Specification of additional information, consent to the data guideline and confirmation of the authorization and the first publication
 

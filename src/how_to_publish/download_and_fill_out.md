@@ -7,7 +7,7 @@ order: 40
 
 
 !!!success Note
-If data are already published in another open repository, the BonaRes Centre offers to take over the metadata of the dataset and to disseminate it via its own infrastructure. There is a link to the location of the dataset. This means that the research data can also be found via the BonaRes Repository without the need for republication. **Contact the support of the BonaRes Repository here:** [support-data@bonares.de](support-data@bonares.de).
+If data are already published in another open repository, the BonaRes Repository offers to take over the metadata of the dataset and to disseminate it via its own infrastructure. There is a link to the location of the dataset. This means that the research data can also be found via the BonaRes Repository without the need for republication. **Contact the support of the BonaRes Repository here:** [support-data@bonares.de](support-data@bonares.de).
 !!!
 
 ### Download

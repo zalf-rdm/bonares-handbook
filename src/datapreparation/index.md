@@ -20,58 +20,37 @@ short, concise name. For widespread reuse, work should be done in English if pos
 Typically, each table contains the following standard attributes:
 
 _Table 1: Example table with typical standard attributes of a data table_
+<img src="/static/img/table_format.png" alt=" table format" />
 
-<div class="table-wrapper scrollbar overflow-hidden">
-   <table class="comfortable">
-   <thead style="font-size: 24px; background-color: #A8A8A8">
-      <thead>
-         <tr>
-            <th><strong>Identifier</strong></th>
-            <th><strong>x-coordinate</strong></th>
-            <th><strong>y-coordinate</strong></th>
-            <th><strong>Date</strong></th>
-            <th><strong>beetles</strong></th>
-            <th><strong>Attribute 2</strong></th>
-            <th><strong>Attribute n</strong></th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>1</td>
-            <td>52,460126<br>
-            <td>13,296310<br>
-            <td>17.04.2018<br>
-            <td>5<br>
-            <td>...<br>
-            <td>...<br>
-         </tr>
-      </tbody>
-   </table>
-</div>
+<br>
+<br>
 
+
+### The following formal criteria must be met:
 {.compact}
-**The following formal criteria must be met:**
----
-1. **Tables** are unformatted (do not contain grafical elements, colored lines, …) 
-2. There are no internal references or formulas within a table |
-3. Tables contain only **one** worksheet (avoid Excel folders with multiple sheets)
-4. **In case of multiple sheets**, upload each sheet as a **separate table**
-5. Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles”)
-6. **Column delimiter** is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)
-7. Attribute names contain **no spaces** (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units
-8. ...are a maximum of 30 characters long
-9. ...**do not** start with a number
-10. ...are only assigned **once**
-11. **Missing values** are explicitly marked and clearly differ from “none specification "and" 0 "
-12. Values within a column are constant (**no change of reference variable or unit**)
-13. Values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”
-14. Only one value specified per cell
-15. Cells **are not** connected
-16. ... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter)
-17. IDs are only assigned **once**
-18. Each line is available **once**(there are no double lines e. g. due to copy errors)
-19. Cells contain no spaces
+| -   | **Criteria list**                                                                                                                  |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Tables** are unformatted (do not contain grafical elements, colored lines, …)                                                    |
+| 2   | There are no internal references or formulas within a table                                                                        |
+| 3   | Tables contain only **one** worksheet (avoid Excel folders with multiple sheets)                                                   |
+| 4   | asadas Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles” |
+| 5   | **Column delimiter** is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)                                  |
+| 6   | Attribute names contain **no spaces** (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units             |
+| 7   | ...are a maximum of 30 characters long                                                                                             |
+| 8   | ...**do not** start with a number                                                                                                  |
+| 9   | ...are only assigned **once**                                                                                                      |
+| 10  | **Missing values** are explicitly marked and clearly differ from “none specification "and" 0 "                                     |
+| 11  | Values within a column are constant (**no change of reference variable or unit**)                                                  |
+| 12  | Values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”                     |
+| 13  | Only one value specified per cell                                                                                                  |
+| 14  | Cells **are not** connected                                                                                                        |
+| 15  | ... do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter) |
+| 16  | IDs are only assigned **once**                                                                                                     |
+| 17  | Each line is available **once**(there are no double lines e. g. due to copy errors)                                                |
+| 18  | Cells contain no spaces                                                                                                            |
+
+
  
 
-The prepared dataset should be submitted in the **file format txt, csv, xls or xslx.** Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Centre also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the [support of BonaRes Repository](mailto:support-data@bonares.de).
+The prepared dataset should be submitted in the **file format txt, csv, xls or xslx.** Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Repository also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the [support of BonaRes Repository](mailto:support-data@bonares.de).
 
