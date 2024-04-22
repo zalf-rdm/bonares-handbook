@@ -1,4 +1,4 @@
-input: src  # The local path from this retype.yml file to your content files.
+input: src # The local path from this retype.yml file to your content files.
 
 # -----------------------------------------------------------------------------
 
@@ -7,10 +7,9 @@ editor:
 
 # -----------------------------------------------------------------------------
 
-url: bonares-handbook/  # The base URL of your website.
+url: bonares-handbook/ # The base URL of your website.
 
-# 
-
+#
 
 favicon: static/img/zalf_logo.svg
 # -----------------------------------------------------------
@@ -18,34 +17,35 @@ branding:
   title: Handbook for BonaRes Repository
   logo: static/img/zalf_logo.png
   colors:
-      label:                  # Label colors
-        text: "#009400"       # Custom color for the label text.
-        background: "#ffffff"
+    label: # Label colors
+      text: "#009400" # Custom color for the label text.
+      background: "#ffffff"
 # -----------------------------------------------------------------------------
 
-poweredByRetype: true # Set to false to remove the Powered by Retype branding.
-                      # A Retype Pro license is required.
-                      # See: https://retype.com/pro
+poweredByRetype:
+  true # Set to false to remove the Powered by Retype branding.
+  # A Retype Pro license is required.
+  # See: https://retype.com/pro
 
 # -----------------------------------------------------------------------------
 
 links: # A list of custom links to add to the top bar of the generated website.
   # See also: footer.links
-  - text: BonaRes Portal
-    link: https://www.bonares.de  # Link to an internal file or external URL.
+  - text: Zalf Data Service
+    link: https://www.zalf.de/en/forschung_lehre/dataservice/Pages/default.aspx # Link to an internal file or external URL.
     icon: globe
-    target: blank                 # Custom target. Use blank to open link in a new window.
+    target: blank # Custom target. Use blank to open link in a new window.
     colors:
-        text: "#009100"      # Custom color for the label text.
-        background: "#ffffff"
+      text: "#009100" # Custom color for the label text.
+      background: "#ffffff"
 
 # -----------------------------------------------------------------------------
 
 footer:
   copyright: "Last Updated on 21.02.24" #&copy; Copyright . All rights reserved." # A custom copyright statement
-  links:                                          # A list of links to include in the footer.
-                                                  # See also: links
-    - text: Imprint                               # The text to use for the link
+  links: # A list of links to include in the footer.
+    # See also: links
+    - text: Imprint # The text to use for the link
       link: https://www.bonares.de/imprint
     - text: Privacy Policy
       link: https://www.bonares.de/privacypolicy
@@ -55,21 +55,21 @@ footer:
 # -----------------------------------------------------------------------------
 
 generator:
-  recase: all # Set to `none` to not recase any file or folder names.
-              # By default, all generated file and folder names are
-              # generated in all lowercase.
+  recase:
+    all # Set to `none` to not recase any file or folder names.
+    # By default, all generated file and folder names are
+    # generated in all lowercase.
 
 # -----------------------------------------------------------------------------
 
-
-
-search:          # Custom configuration of the website search component.
+search: # Custom configuration of the website search component.
   hotkeys:
-    - "/"        # Keyboard key to set the cursor focus into the search field.
+    - "/" # Keyboard key to set the cursor focus into the search field.
   maxResults: 20 # Max number of search results to render.
-  minChars: 2    # Min number of characters required to trigger a sear.ch
-  mode: full     # The search index creation mode.
-                 # Options include: full | partial | basic
+  minChars: 2 # Min number of characters required to trigger a sear.ch
+  mode:
+    full # The search index creation mode.
+    # Options include: full | partial | basic
   noResultsFoundMsg: "No results" # Message when no results are found.
   placeholder: Search # Placeholder text used in the search input field.
 
@@ -77,6 +77,7 @@ search:          # Custom configuration of the website search component.
 
 templating:
   enabled: true # Enable or disable the Retype content templating engine.
-  liquid: false # Is Liquid syntax {% ... %} enabled?
-                # If true, Retype is incompatible with
-                # GitBook style of component configuration.
+  liquid:
+    false # Is Liquid syntax {% ... %} enabled?
+    # If true, Retype is incompatible with
+    # GitBook style of component configuration.

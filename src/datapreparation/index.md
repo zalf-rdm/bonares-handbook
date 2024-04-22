@@ -75,6 +75,3 @@ _Table 1: Example table with typical standard attributes of a data table_
 
 The prepared dataset should be submitted in the **file format txt, csv, xls or xslx.** Avoid file formats that cannot be read with common programs. For example, formats for special company software for data loggers. In addition to tables, the BonaRes Repository also publishes all formats of research data that are common in science, such as pictures, videos, texts. The BonaRes Centre also is able to deal with complex file structures (Access, SQL, Shape, ...). In this case contact the [support of BonaRes Repository](mailto:support-data@bonares.de).
 
-!!!success File Formats
-Datasets submitted in file formats, which can be integrated to the SQL database of the BonaRes Data Centre is made available with full service (options for file formats and coordinate system, description of the data model, ...). Other research data e.g., Pictures, videos or comparable formats can be downloaded by the re-user in the file format as submitted. If you have any questions, contact the [support of BonaRes Repository](mailto:support-data@bonares.de)
-!!!
