@@ -11,7 +11,7 @@ url: bonares-handbook/ # The base URL of your website.
 
 #
 
-favicon: static/img/zalf_logo.svg
+favicon: static/img/zalf_logo.png
 # -----------------------------------------------------------
 branding:
   title: Handbook for BonaRes Repository
@@ -31,7 +31,7 @@ poweredByRetype:
 
 links: # A list of custom links to add to the top bar of the generated website.
   # See also: footer.links
-  - text: ZALF DATA SERVICE
+  - text: ZALF Data Service
     link: https://www.zalf.de/en/forschung_lehre/dataservice/Pages/default.aspx # Link to an internal file or external URL.
     icon: #globe
     target: blank # Custom target. Use blank to open link in a new window.
