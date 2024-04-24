@@ -1,5 +1,5 @@
 ---
-label: Dataset and Metadata Submission
+label: Upload dataset and metadata in our Upload Tool
 icon: project-roadmap
 expanded: false
 order: 30
@@ -8,7 +8,8 @@ order: 30
 
 ### Submit a new dataset
 
-After completing the metadata template, click on the **“submit new dataset”** button and **fill** the upload form.
+After completing the metadata template, go back to our [Upload Tool](https://upload.bonares.de) and
+click on the **“submit new dataset”** button. After you logged in a web form will open. 
 
 :::content-center
 ![_Submit a new dataset_](/static/img/fig_submit_new_dataset.png)
@@ -16,21 +17,34 @@ After completing the metadata template, click on the **“submit new dataset”*
 
 ### Filling out the Upload form
 
-The first step in the upload form is to provide a title and a brief but understandable description of the dataset – analogue to the abstract of a paper but specified to this data. This information is the basis of the metadata.
+Please fill out as much details as possibles.
+
+#### Title and description
+
+First you need to provide a title and a brief but understandable description of the dataset
+– analogue to the abstract of a paper but specified to this data. This information is the
+basis of the metadata. 
+
+!!!
+You can take the title and description from the metadata template and paste it into the respective form field.
+!!!
+
 :::content-center
 ![_Upload form: Title and description of the dataset_](/static/img/fig_title_description.png)
 :::
 
-### Upload form: Selection of Project
+#### Project
 
 The project in which the data were collected must be specified in the following field. You can choose from the BonaRes collaborative projects and some long-term field experiments. For all other data that cannot be assigned to any of these projects, “Other” must be specified. In the future, it should also be possible to manually enter the individual projects.
 :::content-center
 ![_Upload form: Project_](/static/img/fig_project.png)
 :::
 
-### Upload form: Selection of the relevant Research Domain
+#### Research Domain
 
-When selecting the research domain, the most appropriate domain should be selected. Only one domain can be selected. The research domains are based on the categories of the [German Research Foundation (DFG)](https://www.dfg.de/en/dfg_profile/statutory_bodies/review_boards/subject_areas/index.jsp) (FK No. 207 Agriculture, Forestry and Veterinary Medicine).
+When selecting the research domain, the most appropriate domain should be selected.
+Only one domain can be selected. The research domains are based on the categories of
+the [German Research Foundation (DFG)](https://www.dfg.de/en/dfg_profile/statutory_bodies/review_boards/subject_areas/index.jsp) (FK No. 207 Agriculture, Forestry and Veterinary Medicine).
 :::content-center
 ![_Upload form: Selection of the relevant Research Domain_](/static/img/fig_domain.png)
 :::

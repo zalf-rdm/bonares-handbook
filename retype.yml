@@ -31,7 +31,7 @@ poweredByRetype:
 
 links: # A list of custom links to add to the top bar of the generated website.
   # See also: footer.links
-  - text: ZALF Data Service
+  - text: ZALF Data Services
     link: https://www.zalf.de/en/forschung_lehre/dataservice/Pages/default.aspx # Link to an internal file or external URL.
     icon: #globe
     target: blank # Custom target. Use blank to open link in a new window.
