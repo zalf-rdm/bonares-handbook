@@ -13,10 +13,12 @@ nav a {
   font-weight: bold !important;
   font-style: normal;
   font-variation-settings:
-    "wdth" 400 !important;
+    "width" 400 !important;
 }
 
-
+p {
+    margin-bottom: 0px !important;
+}
 
 #docs-site-header {
   background-image: url("./img/header.png");
@@ -24,7 +26,7 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d5dbd5e1;
-  height: 100px;
+  height: 120px;
 }
 
 .infos {
