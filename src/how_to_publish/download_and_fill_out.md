@@ -69,6 +69,3 @@ sections the required metadata elements are described.
 ![_Figure 5: Dataset description of large datasets in an extra Excel file_](/static/img/fig_metadata_excel_example.png)
 :::
 
-<> (@Igo: here the Excel file should be transposed; columns
-should be description, unit etc. and columns should be the parameters provided by authors.
-Or where does this figure comes from?)

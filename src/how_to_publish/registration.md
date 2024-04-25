@@ -12,16 +12,18 @@ services of the BonaRes Repository.
 
 ### 1. Sign up to the BonaRes Repository
 
-Please use https://signup.bonares.de for setting up a user account. Here you need to provide a user name and email 
-address, as well as assigning a password.
+Please use https://signup.bonares.de for setting up a user account. Here you need to provide a:
+   - user name
+   - email and 
+   - password.
 
-   The password must fullfil the following criteria:
+   The **password** must fullfil the following criteria:
    - it must consist of at least 8 characters
    - it must contain at least 3 small letters
    - it must differ from the user name and email address
    - it must contain at least 3 character classes (e.g. uppercase, lowercase, special characters, numbers)
 
-![](/static/img/fig_registration.png)
+![_Figure 1: Registration form for a BonaRes account_](/static/img/fig_registration.png)
 
 
 ### 2. Receive confirmation email
