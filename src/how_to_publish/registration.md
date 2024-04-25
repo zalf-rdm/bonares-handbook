@@ -1,34 +1,40 @@
 ---
-label: Registration
+label: Sign up and create an user acconut
 icon: pencil
 expanded: false
 order: 50
 ---
-# Registration in the  BonaRes Repository
+# Sign up and create a user acconut
 
-A **[one-time registration](https://signup.bonares.de)** is required to use the services of the BonaRes Repository.
+If you have don't have an user account in the BonaRes Repository, a
+**[one-time registration](https://signup.bonares.de)** is required to use the
+services of the BonaRes Repository.
 
-### 1. Signup to the BonaRes Repository
+### 1. Sign up to the BonaRes Repository
 
-Please use https://signup.bonares.de for setting up a user account. Here you need to provide a user name and email 
-address, as well as assignment of a password
+Please use https://signup.bonares.de for setting up a user account. Here you need to provide a:
+   - user name
+   - email and 
+   - password.
 
-   The following conditions must be met for the password:
+   The **password** must fullfil the following criteria:
    - it must consist of at least 8 characters
    - it must contain at least 3 small letters
    - it must differ from the user name and email address
    - it must contain at least 3 character classes (e.g. uppercase, lowercase, special characters, numbers)
 
-![](/static/img/fig_registration.png)
+![_Figure 1: Registration form for a BonaRes account_](/static/img/fig_registration.png)
 
 
-### 2. Reveive confirmation email
+### 2. Receive confirmation email
 
-Once you signed up, you will receive a confirmation mail. 
+Once you signed up, you will receive a confirmation mail in your mailbox. Please check your SPAM folder
+if you do not receive an email.
 
 ### 3. Confirm your email address 
 
-To finish registration process you need to click the link in the email. .
+To finish registration process you need to click the link in the email to confirm, that your
+email address exists and you signed up for a user account.
 
 !!!success  Note:
 If the intention is to submit several datasets of a **research group**, it is possible to organize all 

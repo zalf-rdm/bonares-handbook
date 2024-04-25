@@ -5,10 +5,12 @@ expanded: false
 order: 200
 ---
 
-# Frequently Asked Questions
+# Contact us
 
-### BonaRes Repository
-**Leibniz Centre for Agricultural Landscape Research (ZALF) <br>**
+The BonaRes Repository is operated by the **Leibniz Centre for Agricultural Landscape Research (ZALF)** (www.zalf.de).
+
+#### Contact
+Leibniz Centre for Agricultural Landscape Research (ZALF) <br>
 Eberswalder Strasse 84 <br>
 15374 Müncheberg, Germany <br>
 :icon-person: (+49) 033432 82 300 <br>

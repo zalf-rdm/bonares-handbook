@@ -31,13 +31,13 @@ poweredByRetype:
 
 links: # A list of custom links to add to the top bar of the generated website.
   # See also: footer.links
-  - text: ZALF Data Service
+  - text: ZALF Data Services
     link: https://www.zalf.de/en/forschung_lehre/dataservice/Pages/default.aspx # Link to an internal file or external URL.
-    icon: #globe
+    icon: info
     target: blank # Custom target. Use blank to open link in a new window.
     colors:
       text: "#454645" # Custom color for the label text.
-      background: "#ffffff"
+      background: "#cccccc"
 
 # -----------------------------------------------------------------------------
 

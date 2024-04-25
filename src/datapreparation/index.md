@@ -66,7 +66,7 @@ The following formal criteria for tabular data especially submitted as Excel fil
 | 8  | Each line is available **once**(there are no double lines e. g. due to copy errors)                                                |
 
 
-#### Preferred file formats
+### Preferred file formats
 
 In case of **tabular data**, the prepared dataset should be submitted in the file formats:
 - Textfile (*.txt)
