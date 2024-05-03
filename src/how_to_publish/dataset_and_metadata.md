@@ -1,5 +1,5 @@
 ---
-label: Upload dataset and metadata in our Upload Tool
+label: Dataset and Metadata Submission
 icon: project-roadmap
 expanded: false
 order: 30

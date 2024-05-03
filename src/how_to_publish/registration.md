@@ -1,5 +1,5 @@
 ---
-label: Sign up and create an user acconut
+label: Signup and create an user account
 icon: pencil
 expanded: false
 order: 50
