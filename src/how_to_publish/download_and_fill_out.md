@@ -49,5 +49,5 @@ _Download the metadata template [here](https://tools.bonares.de/submission/)_
 :::
 
 :::content-center
-![_Metadata template: example of excel file for simple data sets_](/static/img/fig_metadata_excel_example.png)
+![_Metadata template: example of excel file for simple data sets_](/static/img/fig_metadata_excel.png)
 :::
