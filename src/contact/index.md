@@ -12,7 +12,6 @@ order: 200
 Eberswalder Strasse 84 <br>
 15374 Müncheberg, Germany <br>
 :icon-person: (+49) 033432 82 300 <br>
-:icon-mail: [dataservice@zalf.de](dataservice@zalf.de) <br>
-:icon-globe: [https://www.bonares.de/research-data](https://www.bonares.de/research-data) <br>
+:icon-mail: [support-data@bonares.de ](support-data@bonares.de ) <br>
 
 
