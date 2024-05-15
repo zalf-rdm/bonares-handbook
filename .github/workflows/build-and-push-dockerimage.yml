@@ -14,9 +14,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            zalf/bonares-handbook
-          tags: |
-            type=ref,event=tag
+            zalf/bonares-handbook:latest
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
