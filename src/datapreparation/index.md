@@ -21,8 +21,8 @@ following rows, which means the data within the **table are column-oriented**.
 
 Typically, each table contains the following standard column names:
 
-_Table 1: Example table with typical standard column names of a data table_
-<img src="/static/img/table_format.png" alt=" table format" />
+
+![_Table 1: Example table with typical standard column names of a data table_](/static/img/table_format.png)
 
 <br>
 
@@ -33,37 +33,37 @@ The following formal criteria for tabular data especially submitted as Excel fil
 #### Table criteria
 
 {.compact}
-| **No.**   | **General criteria for tables**                                                                                                                  |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Tables** are unformatted (do not contain graphical elements, colored lines, …)                                                    |
-| 2   | There are no internal references or formulas within a table    
-| 3   | Tables contain only **one** worksheet (avoid Excel folders with multiple sheets)                                                   |
+| **No.** | **General criteria for tables**                                                  |
+| ------- | -------------------------------------------------------------------------------- |
+| 1       | **Tables** are unformatted (do not contain graphical elements, colored lines, …) |
+| 2       | There are no internal references or formulas within a table                      |
+| 3       | Tables contain only **one** worksheet (avoid Excel folders with multiple sheets) |
 
 #### Column criteria
                                                                     
 {.compact}
-| **No.**  | **Criteria for column**      
-| --- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles” |
-| 2   | **Column delimiter** is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)                                  |
-| 3   | Column names contain **no spaces** (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units             |
-| 4   | Column names are a maximum of 30 characters long                                                                                             |
-| 5   | Column names **do not** start with a number                                                                                                  |
-| 6   | Column names are only assigned **once**
-| 7   | Values within a column are constant (**no change of reference variable or unit**)                                                  |
+| **No.** | **Criteria for column**                                                                                                     |
+| ------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 1       | Each column contains a unique attribute name (between upper and lower case not differentiated z. B. “beetles” and “Beetles” |
+| 2       | **Column delimiter** is consistent and clearly identifies throughout the table (e. g. ”;” or “,”)                           |
+| 3       | Column names contain **no spaces** (an underscore „_“ is allowed to use), special characters, umlauts, “ß” or units         |
+| 4       | Column names are a maximum of 30 characters long                                                                            |
+| 5       | Column names **do not** start with a number                                                                                 |
+| 6       | Column names are only assigned **once**                                                                                     |
+| 7       | Values within a column are constant (**no change of reference variable or unit**)                                           |
 
 #### Cell criteria
 {.compact}
-| **No.**  | **Criteria for cells**      
-| --- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | **Missing values** are explicitly marked and clearly differ from “none specification "and" 0 "                                     |
-| 2  | Values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”                     |
-| 3  | Only one value specified per cell                                                                                                  |
-| 4  | Cells **are not** connected                                                                                                        |
-| 5  | Cells do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter) |
-| 6  | Cells contain no spaces                                                                                                             |
-| 7  | IDs are only assigned **once**                                                                                                     |
-| 8  | Each line is available **once**(there are no double lines e. g. due to copy errors)                                                |
+| **No.** | **Criteria for cells**                                                                                                               |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1       | **Missing values** are explicitly marked and clearly differ from “none specification "and" 0 "                                       |
+| 2       | Values in the cells contain no units, explanations or abbreviations e. g. "Under detection limit” or “< 0.00 ”                       |
+| 3       | Only one value specified per cell                                                                                                    |
+| 4       | Cells **are not** connected                                                                                                          |
+| 5       | Cells do not contain separators such as “;” (decimal numbers are uniformly written with “.” or “,” and differ from column delimiter) |
+| 6       | Cells contain no spaces                                                                                                              |
+| 7       | IDs are only assigned **once**                                                                                                       |
+| 8       | Each line is available **once**(there are no double lines e. g. due to copy errors)                                                  |
 
 
 #### Preferred file formats
