@@ -2,7 +2,7 @@ name: build and push bonares-handbook image
 
 on:
   push:
-    branch:
+    branches:
       - "retype"
 jobs:
   docker:
